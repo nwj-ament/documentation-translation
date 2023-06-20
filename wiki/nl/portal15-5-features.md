@@ -1,10 +1,10 @@
 <!--- this is the SHORT list of highlight features only --->
 '''openSUSE Leap 15.5 is...'''
 
-Is this highlight too short? See [[Features_15.5]] for more detailed information about planned changes.
+Is deze highlight te kort? Zie [[Features_15.5]] voor meer gedetailleerde informatie over komende veranderingen.
 
-{{Point here|[[Image:Icon-network.png|48px|link=]]|'''Software Craftsmanship'''
-<p>Previous versions of openSUSE Leap did a great job to keep sources alike with SUSE Linux Enterprise, yet [[openSUSE:Build_Service_cross_distribution_howto |different build configuration]] resulted in various feature sets on both sides of these chameleon distributions. This release of openSUSE Leap goes beyond the previous sources and unifies feature sets and the building openSUSE Leap on top of binary packages from SUSE Linux Enterprise 15 SP5. The release becomes fully binary identical with openSUSE Leap 15.5 and SUSE Linux Enterprise 15 SP5.</p>
+{{Point here|[[Image:Icon-network.png|48px|link=]]|'''Software vakmanschap'''
+<p>Vorige versies van openSUSE LeapPrevious versions of openSUSE Leap did a great job to keep sources alike with SUSE Linux Enterprise, yet [[openSUSE:Build_Service_cross_distribution_howto |different build configuration]] resulted in various feature sets on both sides of these chameleon distributions. This release of openSUSE Leap goes beyond the previous sources and unifies feature sets and the building openSUSE Leap on top of binary packages from SUSE Linux Enterprise 15 SP5. The release becomes fully binary identical with openSUSE Leap 15.5 and SUSE Linux Enterprise 15 SP5.</p>
 }}
 
 {{Point here|[[Image:Icon-network.png|48px|link=]]|'''Seamless migration'''
