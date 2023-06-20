@@ -16,7 +16,7 @@ Is deze highlight te kort? Zie [[Features_15.5]] voor meer gedetailleerde inform
 
 <p>PyTorch: Gemaakt voor zowel server als reken bron, versnel deze machine learning bibliotheek de mogelijkeden voor power users om een prototype van een project te maken en deze in produktie uit te rollen.</p>
 
-<p>ONNX: Een open formaat gebouwd om machine learning modellen weer te geven,biedt interoperabiliteit in de AI-toolruimte. Het laat Kunstmatige Intelligentie ontwikkelaars modellen gebruiken met een verscheidenheid aan frameworks, hulpmiddelen, runtimes en compilers.</p>
+<p>ONNX: Een open formaat gebouwd om machine learning modellen weer te geven, biedt interoperabiliteit in de AI-toolruimte. Het laat Kunstmatige Intelligentie ontwikkelaars modellen gebruiken met een verscheidenheid aan frameworks, hulpmiddelen, runtimes en compilers.</p>
 }}
 
 {{Point here|[[Image:Icon-nvme.png|48px|link=]]|'''Booting from NVMe-oF™ over TCP'''<br />
