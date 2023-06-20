@@ -11,7 +11,7 @@ Is deze highlight te kort? Zie [[Features_15.5]] voor meer gedetailleerde inform
 <p>De [[SDB:How_to_migrate_to_SLE|naadloze migratie]] ervaring van Leap naar SUSE Linux Enterprise Server is vrijwel onmiddellijk. De patroonwijzigingen om naar SUSE Linux Enterprise te migreren zijn moeiteloos. Mochten gebruikers van openSUSE Leap moeten migreren, dan is de optie beschikbaar en kunnen gebruikers vertrouwen op de mogelijkheid om te migreren naar enterprise ondersteuning. Meer informatie over hoe de distributies zijn opgebouwd, vindt u [https://www.suse.com/c/how-suse-builds-its-enterprise-linux-distribution-part-5/ hier].</p>
 }}
 
-{{Point here|[[Image:ai.png|48px|link=]]|'''Artificial Intelligence'''<br />
+{{Point here|[[Image:ai.png|48px|link=]]|'''Kunstmatige Intelligentie'''<br />
 <p>Many Artificial Intelligence packages are available in Leap 15.5.</p>
 
 <p>PyTorch: Made for both server and compute resources, this machine learning library accelerates power users’ ability to prototype a project and move it to a production deployment.</p>
