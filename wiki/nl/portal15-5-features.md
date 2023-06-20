@@ -20,19 +20,19 @@ Is deze highlight te kort? Zie [[Features_15.5]] voor meer gedetailleerde inform
 }}
 
 {{Point here|[[Image:Icon-nvme.png|48px|link=]]|'''Opstarten van NVMe-oF™ over TCP'''<br />
-<p>openSUSE Leap 15.5 provides out-of-the-box support for installation on and booting from [[NVMExpress|NVM Express®]] over Fabrics (NVMe-oF™) over the TCP transport according to the [https://nvmexpress.org/wp-content/uploads/NVM-Express-Boot-Specification-2022.11.15-Ratified.pdf NVMe-oF boot specification 1.0]. This allows flexible creation and orchestration of diskless clients in SAN environments using the latest NVMe-oF technology.
+<p>openSUSE Leap 15.5 heeft out-of-the-box ondersteuning voor installatie op en opstarten vanaf [[NVMExpress|NVM Express®]] over Fabrics (NVMe-oF™) via het TCP transport volgens de [https://nvmexpress.org/wp-content/uploads/NVM-Express-Boot-Specification-2022.11.15-Ratified.pdf NVMe-oF boot specification 1.0]. Dit maakt flexibele creatie en beheer van diskloze clients binnen SAN-omgevingen mogelijk door middel van de laatste NVMe-oF technologie.
 
-This feature requires support in the system UEFI BIOS, where networking and NVMe-oF targets are configured. The firmware uses this information for booting the kernel. The operating system obtains the configuration information from the firmware and uses it for mounting the root file system over NVMe-oF.</p>
+Deze feature vereist ondersteuning in het UEFI BIOS van het systeem, waar het netwerk en NVMe-oF doelen worden geconfigureerd. De firmware gebruikt deze informatie om de kernel te starten. Het besturingssysteem krijgt de configuratie informatie van de firmware en gebruikt deze voor het koppelen van het root bestandssysteem via NVMe-oF.</p>
 }}
 
 
-===For Users===
+===Voor Gebruikers===
 
 {{Point here|[[Image:Logo-kde.png|48px|link=]]|'''KDE'''<br />
 <p>
-Plasma 5.27 LTS is a long-term support release from the KDE Plasma team. Leap 15.5 includes this new LTS version. In Plasma 5.27, massive improvements have been made.
+Plasma 5.27 LTS is een lange termijn ondersteunings release van het KDE Plasma team. Leap 15.5 bevat deze nieuwe LTS versie. In Plasma 5.27 zijn er grote verbeteringen aangebracht.
 
-A Konqi welcome wizard arrives in the release to provide newcommers with the power or open source software.
+Een Konqi welkomst wizard verschijnt in deze release om nieuwkomers met de kracht van open source software.
 
 Speaking of features, check out the new tiling system: it will allow you to set up custom tile layouts and resize adjacent tiled windows simultaneously. Activate it in System Settings > Workspace Behavior > Desktop Effects.  
 </p>
