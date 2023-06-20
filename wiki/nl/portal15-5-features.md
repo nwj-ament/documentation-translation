@@ -4,11 +4,11 @@
 Is deze highlight te kort? Zie [[Features_15.5]] voor meer gedetailleerde informatie over komende veranderingen.
 
 {{Point here|[[Image:Icon-network.png|48px|link=]]|'''Software vakmanschap'''
-<p>Vorige versies van openSUSE LeapPrevious versions of openSUSE Leap did a great job to keep sources alike with SUSE Linux Enterprise, yet [[openSUSE:Build_Service_cross_distribution_howto |different build configuration]] resulted in various feature sets on both sides of these chameleon distributions. This release of openSUSE Leap goes beyond the previous sources and unifies feature sets and the building openSUSE Leap on top of binary packages from SUSE Linux Enterprise 15 SP5. The release becomes fully binary identical with openSUSE Leap 15.5 and SUSE Linux Enterprise 15 SP5.</p>
+<p>Vorige versies van openSUSE Leap hebben geweldig werk geleverd om de bronbestanden gelijk te houden aan SUSE Linux Enterprise, yet [[openSUSE:Build_Service_cross_distribution_howto |different build configuration]] resulted in various feature sets on both sides of these chameleon distributions. This release of openSUSE Leap goes beyond the previous sources and unifies feature sets and the building openSUSE Leap on top of binary packages from SUSE Linux Enterprise 15 SP5. The release becomes fully binary identical with openSUSE Leap 15.5 and SUSE Linux Enterprise 15 SP5.</p>
 }}
 
-{{Point here|[[Image:Icon-network.png|48px|link=]]|'''Seamless migration'''
-<p>The [[SDB:How_to_migrate_to_SLE|seamless migration]] experience from Leap to SUSE Linux Enterprise Server is practically instantaneous. The pattern changes to migrate to SUSE Linux Enterprise are effortless. Should users of  openSUSE Leap have a need to migrate, the option is available and users can be confident in the ability to migration to enterprise support. More information about how the distributions are built the can be found [https://www.suse.com/c/how-suse-builds-its-enterprise-linux-distribution-part-5/ here].</p>
+{{Point here|[[Image:Icon-network.png|48px|link=]]|'''Naadloze migratie'''
+<p>De [[SDB:How_to_migrate_to_SLE|naadloze migratie]] ervaring van Leap naar SUSE Linux Enterprise Server is vrijwel onmiddellijk. De patroonwijzigingen om naar SUSE Linux Enterprise te migreren zijn moeiteloos. Mochten gebruikers van openSUSE Leap moeten migreren, dan is de optie beschikbaar en kunnen gebruikers vertrouwen op de mogelijkheid om te migreren naar bedrijfsondersteuning. Meer informatie over hoe de distributies zijn opgebouwd, vindt u [https://www.suse.com/c/how-suse-builds-its-enterprise-linux-distribution-part-5/ hier].</p>
 }}
 
 {{Point here|[[Image:ai.png|48px|link=]]|'''Artificial Intelligence'''<br />
