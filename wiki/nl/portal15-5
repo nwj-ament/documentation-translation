@@ -4,7 +4,7 @@
 Left column
 --><div class="col-md-8">
 <div class="card mb-5">
-<div class="card-header">[[{{FULLPAGENAME}}/Intro|openSUSE {{PAGENAME}} Release information]]</div>
+<div class="card-header">[[{{FULLPAGENAME}}/Introductie|openSUSE {{PAGENAME}} Uitgave informatie]]</div>
 <div class="card-body">
 {{:{{FULLPAGENAME}}/Intro}}
 </div>
@@ -20,7 +20,7 @@ Left column
 </div>
 
 <div class="card mb-5">
-<div class="card-header">[[{{FULLPAGENAME}}/Resources|In detail]]</div>
+<div class="card-header">[[{{FULLPAGENAME}}/Bronnen|In detail]]</div>
 <div class="card-body">
 {{:{{FULLPAGENAME}}/Resources}}
 </div>
@@ -31,8 +31,8 @@ Left column
 
 Right column
 --><div class="col-md-4">
-{{:Portal:Distribution/Releases}}
-{{Random portal component|max=5|header=Screenshots|footer=More pictures...| subpage=Screenshots}}
+{{:Portal:Distributie/Releases}}
+{{Random portal component|max=5|header=Screenshots|footer=Meer afbeedldingen...| subpage=Screenshots}}
 </div>
 </div>
 <br style="clear: both;" />
