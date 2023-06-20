@@ -19,7 +19,7 @@ Is deze highlight te kort? Zie [[Features_15.5]] voor meer gedetailleerde inform
 <p>ONNX: Een open formaat gebouwd om machine learning modellen weer te geven, biedt interoperabiliteit in de AI-toolruimte. Het laat Kunstmatige Intelligentie ontwikkelaars modellen gebruiken met een verscheidenheid aan frameworks, hulpmiddelen, runtimes en compilers.</p>
 }}
 
-{{Point here|[[Image:Icon-nvme.png|48px|link=]]|'''Booting from NVMe-oF™ over TCP'''<br />
+{{Point here|[[Image:Icon-nvme.png|48px|link=]]|'''Opstarten van NVMe-oF™ over TCP'''<br />
 <p>openSUSE Leap 15.5 provides out-of-the-box support for installation on and booting from [[NVMExpress|NVM Express®]] over Fabrics (NVMe-oF™) over the TCP transport according to the [https://nvmexpress.org/wp-content/uploads/NVM-Express-Boot-Specification-2022.11.15-Ratified.pdf NVMe-oF boot specification 1.0]. This allows flexible creation and orchestration of diskless clients in SAN environments using the latest NVMe-oF technology.
 
 This feature requires support in the system UEFI BIOS, where networking and NVMe-oF targets are configured. The firmware uses this information for booting the kernel. The operating system obtains the configuration information from the firmware and uses it for mounting the root file system over NVMe-oF.</p>
