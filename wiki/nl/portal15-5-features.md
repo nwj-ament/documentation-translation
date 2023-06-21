@@ -55,7 +55,7 @@ De Xfce Desktop versie in Leap 15.5 is 4.18. Xfce 4.18 introduceert grote nieuwe
 }}
 {{Point here|[[Image:Sway_Tree.png|48px|link=]]|'''Sway'''<br />
 <p>
-openSUSE Leap 15.5 contains a tiling Wayland compositor [[Sway]], that is a drop-in replacement for the i3 window manager for X11. It works with your existing i3 configuration and supports most of i3's features, plus a few extras. 
+openSUSE Leap 15.5 bevat een Wayland compositor met tegels [[Sway]], dit is een drop-in vervanging voor de i3 window manager for X11. Het werkt met je bestaande i3 configuratie en ondersteunt de meeste van i3's featuren plus een paar extra's.
 </p>
 }}
 
