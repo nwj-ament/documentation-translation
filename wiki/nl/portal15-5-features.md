@@ -42,7 +42,7 @@ Nu we het toch over features hebben, bekijk ook het nieuwe tegel systeem: Het ma
 <p>
 Leap 15.5 biedt GNOME 41. GNOME 41 is het resultaat van zes maanden werk door het GNOME project. Het omvat een behoorlijk aantal verbeteringen en nieuwe features, alsook een grote collectie kleine verbeteringen.
 
-De meest merkbare veranderingen in deze release zijn, een verbeterde Software app, nieuwe multitasking instellingen en een verbeterd power management. Met deze veranderingen is Gnome slimmer, flexibeler en biedt een rijkere en meer boeiende ervaring dan voorheen.
+De meest merkbare veranderingen in deze release zijn, een verbeterde Software app, nieuwe multitasking instellingen en een verbeterd power management. Met deze veranderingen is GNOME slimmer, flexibeler en biedt een rijkere en meer boeiende ervaring dan voorheen.
 
 De nieuwe release komt ook met significante verbeteringen voor ontwikkelaars: een documentatie website voor ontwikkelaars, een nieuwe versie van de Human Interface Guidelines, nieuwe features in de Builder IDE, GTK 4 verbeteringen en veel meer.
 </p>
@@ -50,7 +50,7 @@ De nieuwe release komt ook met significante verbeteringen voor ontwikkelaars: ee
 
 {{Point here|[[Image:Logo-xfce.png|48px|link=]]|'''Xfce'''<br />
 <p>
-The Xfce Desktop in Leap 15.5 is 4.18.Xfce 4.18 introduces new major features. Comfortable widget for filename input, XfceFilenameInput, was added in order to prevent invalid filenames at an early stage and to give detailed feedback on concrete problems. The Generic Shortcut Editor widget is currently only used inside Thunar, Xfce4-terminal and Mousepad, though other components might follow.
+De Xfce Desktop versiie in Leap 15.5 is 4.18. Xfce 4.18 introduceert grote nieuwe features. Een prettigee widget voor het invoeren van bestandsnamen, XfceFilenameInput, is toegevoegd om ongeldige bestandsnamen snel te voorkomen en gedetaillerde terugkoppeling te geven over concrete problemen. De Generic Shortcut Editor widget wordt op dit moment alleen gebruikt binnen Thunar, Xfce4-terminal en Mousepad, maar andere componenten kunnen volgen.
 </p>
 }}
 {{Point here|[[Image:Sway_Tree.png|48px|link=]]|'''Sway'''<br />
