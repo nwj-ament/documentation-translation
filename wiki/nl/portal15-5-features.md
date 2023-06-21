@@ -61,11 +61,11 @@ openSUSE Leap 15.5 bevat een Wayland compositor met tegels [[Sway]], dit is een 
 
 
 {{Point here|[[Image:Icon-desktop.png|48px|link=]]|'''Onderwijs, onderzoek en gezondheidszorg'''<br />
-<p>De Leap distributie supports the gezondheidszorg, wetenschaps, onderzoeks en ontwikkelings communities met pakketten zoals GNU Health, welke kunnen helpen bijdragen aan de operationele kant van een ziekenhuis en vitale patientgegevens kan opslaan. Ook bieden we QGIS, welke onderzoekers instaat stelt om georuimtelijke informatie te maken, bewerken, visualiseren, analyzeren on publiceren. Grafana and Prometheus are two new maintained packages that open up new possibilities for analytical experts. Grafana provides end users the ability to create interactive visual analytics. Feature-rich data-modeling packages: Graphite, Elastic and Prometheus give openSUSE users greater latitude to construct, compute and decipher data more intelligibly.</p>
+<p>De Leap distributie supports the gezondheidszorg, wetenschaps, onderzoeks en ontwikkelings communities met pakketten zoals GNU Health, welke kunnen helpen bijdragen aan de operationele kant van een ziekenhuis en vitale patientgegevens kan opslaan. Ook bieden we QGIS, welke onderzoekers instaat stelt om georuimtelijke informatie te maken, bewerken, visualiseren, analyzeren on publiceren. Grafana en Prometheus zijn twee onderhouden pakketten die nieuwe mogelijkheden bieden voor analytische experts. Grafana biedt gebuikers de mogelijkheid om interactieve, visuele analyses te maken. Data modellering pakketten met vele mogelijkheden: Graphite, Elastic en Prometheus geven openSUSE gebruikers meer vrijheid om gegevens begrijpelijker te maken, berekenen en ontcijferen.</p>
 }}
 
-{{Point here|[[Image:Icon-wiki.png|48px|link=]]|'''Internationalization'''<br />
-<p>This openSUSE release use [https://l10n.opensuse.org/ Weblate] to coordinate the translation of openSUSE into more than 50 languages. openSUSE’s Weblate interface enables everyone (from dedicated translators to casual contributors) to take part in the process and makes it possible to coordinate the translations of openSUSE with the ones for SUSE Linux Enterprise, boosting collaboration between community and enterprise.</p>
+{{Point here|[[Image:Icon-wiki.png|48px|link=]]|'''Internationalisatie'''<br />
+<p>Deze openSUSE release gebruikt [https://l10n.opensuse.org/ Weblate] om de vertaling naar meer dan 50 talen te coördineren. openSUSE’s Weblate interface maakt het voor iedereen (van vast vertalers tot losse bijdragers) mogelijk om deel te nemen in het proces. Ook maakt Weblate het mogelijk om de vertalingen te coordineren met de vertalingen van SUSE Linux Enterprise, om zo de samenwerking tussen community en enterprise te versterken.</p>
 }}
 
 [[Category:15.5]]
