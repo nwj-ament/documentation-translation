@@ -50,7 +50,7 @@ De nieuwe release komt ook met significante verbeteringen voor ontwikkelaars: ee
 
 {{Point here|[[Image:Logo-xfce.png|48px|link=]]|'''Xfce'''<br />
 <p>
-De Xfce Desktop versiie in Leap 15.5 is 4.18. Xfce 4.18 introduceert grote nieuwe features. Een prettigee widget voor het invoeren van bestandsnamen, XfceFilenameInput, is toegevoegd om ongeldige bestandsnamen snel te voorkomen en gedetaillerde terugkoppeling te geven over concrete problemen. De Generic Shortcut Editor widget wordt op dit moment alleen gebruikt binnen Thunar, Xfce4-terminal en Mousepad, maar andere componenten kunnen volgen.
+De Xfce Desktop versie in Leap 15.5 is 4.18. Xfce 4.18 introduceert grote nieuwe features. Een prettige widget voor het invoeren van bestandsnamen, XfceFilenameInput, is toegevoegd om ongeldige bestandsnamen snel te voorkomen en gedetaillerde terugkoppeling te geven over concrete problemen. De Generic Shortcut Editor widget wordt op dit moment alleen gebruikt binnen Thunar, Xfce4-terminal en Mousepad, maar andere componenten kunnen volgen.
 </p>
 }}
 {{Point here|[[Image:Sway_Tree.png|48px|link=]]|'''Sway'''<br />
