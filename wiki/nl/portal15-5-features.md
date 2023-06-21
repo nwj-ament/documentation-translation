@@ -60,8 +60,8 @@ openSUSE Leap 15.5 bevat een Wayland compositor met tegels [[Sway]], dit is een 
 }}
 
 
-{{Point here|[[Image:Icon-desktop.png|48px|link=]]|'''Education, Research and Health'''<br />
-<p>The Leap distribution supports the health, science, research and developer communities with packages like GNU Health, which can help facilitate running the operations of a hospital and collecting vital patient data, and QGIS, which allows researchers to create, edit, visualise, analyse and publish geospatial information. Grafana and Prometheus are two new maintained packages that open up new possibilities for analytical experts. Grafana provides end users the ability to create interactive visual analytics. Feature-rich data-modeling packages: Graphite, Elastic and Prometheus give openSUSE users greater latitude to construct, compute and decipher data more intelligibly.</p>
+{{Point here|[[Image:Icon-desktop.png|48px|link=]]|'''Onderwijs, onderzoek en gezondheidszorg'''<br />
+<p>De Leap distributie supports the gezondheidszorg, wetenschaps, onderzoeks en ontwikkelings communities met pakketten zoals GNU Health, welke kunnen helpen bijdragen aan de operationele kant van een ziekenhuis en vitale patientgegevens kan opslaan. Ook bieden we QGIS, welke onderzoekers instaat stelt om georuimtelijke informatie te maken, bewerken, visualiseren, analyzeren on publiceren. Grafana and Prometheus are two new maintained packages that open up new possibilities for analytical experts. Grafana provides end users the ability to create interactive visual analytics. Feature-rich data-modeling packages: Graphite, Elastic and Prometheus give openSUSE users greater latitude to construct, compute and decipher data more intelligibly.</p>
 }}
 
 {{Point here|[[Image:Icon-wiki.png|48px|link=]]|'''Internationalization'''<br />
