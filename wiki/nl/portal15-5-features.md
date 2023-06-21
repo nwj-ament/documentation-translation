@@ -44,7 +44,7 @@ Leap 15.5 biedt GNOME 41. GNOME 41 is het resultaat van zes maanden werk door he
 
 De meest merkbare veranderingen in deze release zijn, een verbeterde Software app, nieuwe multitasking instellingen en een verbeterd power management. Met deze veranderingen is Gnome slimmer, flexibeler en biedt een rijkere en meer boeiende ervaring dan voorheen.
 
-The new release also comes with significant improvements for developers, including a new developer documentation website, a major new version of the Human Interface Guidelines, new features in the Builder IDE, GTK 4 enhancements, and much more.  
+De nieuwe release komt ook met significante verbeteringen voor ontwikkelaars: een documentatie website voor ontwikkelaars, een nieuwe versie van de Human Interface Guidelines, nieuwe features in de Builder IDE, GTK 4 verbeteringen en veel meer.
 </p>
 }}
 
