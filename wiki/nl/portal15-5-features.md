@@ -34,7 +34,7 @@ Plasma 5.27 LTS is een lange termijn ondersteunings release van het KDE Plasma t
 
 Een Konqi welkomst wizard verschijnt in deze release om nieuwkomers met de kracht van open source software.
 
-Speaking of features, check out the new tiling system: it will allow you to set up custom tile layouts and resize adjacent tiled windows simultaneously. Activate it in System Settings > Workspace Behavior > Desktop Effects.  
+Nu we het toch over features hebben, bekijk ook het nieuwe tegel systeem: Het maakt het mogelijk om je eigen tegel layouts te maken en tegelijkertijd ook de naastliggende getegelde vensters van grootte te veranderen. Je activeert dit in Systeeminstellingen > Workspace Behavior > Desktop Effects.  
 </p>
 }}
 
