@@ -40,9 +40,9 @@ Nu we het toch over features hebben, bekijk ook het nieuwe tegel systeem: Het ma
 
 {{Point here|[[Image:Logo-gnome.png|48px|link=]]|'''GNOME'''<br />
 <p>
-Leap 15.5 offers GNOME 41. GNOME 41 is the product of 6 months work by the GNOME project. It includes a number of significant improvements and new features, as well as a large collection of smaller enhancements.
+Leap 15.5 biedt GNOME 41. GNOME 41 is het resultaat van zes maanden werk door het GNOME project. Het omvat een behoorlijk aantal verbeteringen en nieuwe features, alsook een grote collectie kleine verbeteringen.
 
-The most notable changes this release include an improved Software app, new multitasking settings, and enhanced power management features. With these changes, GNOME is smarter, more flexible, and offers a richer and more engaging experience than ever before.
+De meest merkbare veranderingen in deze release zijn, een verbeterde Software app, nieuwe multitasking instellingen en een verbeterd power management. Met deze veranderingen is Gnome slimmer, flexibeler en biedt een rijkere en meer boeiende ervaring dan voorheen.
 
 The new release also comes with significant improvements for developers, including a new developer documentation website, a major new version of the Human Interface Guidelines, new features in the Builder IDE, GTK 4 enhancements, and much more.  
 </p>
