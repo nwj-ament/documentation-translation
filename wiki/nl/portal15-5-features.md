@@ -14,7 +14,7 @@ Is deze highlight te kort? Zie [[Features_15.5]] voor meer gedetailleerde inform
 {{Point here|[[Image:ai.png|48px|link=]]|'''Kunstmatige Intelligentie'''<br />
 <p>Vele Kunstmatige Intelligentie pakketten zijn beschikbaar in Leap 15.5.</p>
 
-<p>PyTorch: Gemaakt voor zowel server als reken bron, versnel deze machine learning bibliotheek de mogelijkheden voor power users om een prototype van een project te maken en deze in produktie uit te rollen.</p>
+<p>PyTorch: Gemaakt voor zowel server als reken bron, versnelt deze machine learning bibliotheek de mogelijkheden voor power users om een prototype van een project te maken en deze in produktie uit te rollen.</p>
 
 <p>ONNX: Een open formaat gebouwd om machine learning modellen weer te geven, biedt interoperabiliteit in de AI-toolruimte. Het laat Kunstmatige Intelligentie ontwikkelaars modellen gebruiken met een verscheidenheid aan frameworks, hulpmiddelen, runtimes en compilers.</p>
 }}
