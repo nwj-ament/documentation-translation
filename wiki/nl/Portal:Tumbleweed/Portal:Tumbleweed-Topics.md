@@ -1,0 +1,89 @@
+{{Point here|[[Image:Icon-info.png|48px|link=]]|
+'''Voor wie is Tumbleweed bedoeld?'''
+
+Elke gebruiker die nieuwere pakketten wenst dan diegenen die in beschikbaar zijn in de [[Portal:Leap|openSUSE Leap]] repositories.  Dit omvat onder andere een geüpdate Linux Kernel, SAMBA, git, desktops, office applicaties en vele andere pakketten
+
+Tumbleweed zal voornamelijk bij Power Users, Software Ontwikkelaars (zij hebben de laatste software stacks en IDEs nodig) en openSUSE bijdragers (zij hebben een betrouwebaar platform nodig dat zo dicht als mogelijk tegen [[Portal:Factory|openSUSE Factory]] aan zit maar wel bruikbaar is).
+
+Due to the Linux kernel being updated very frequently, users who rely on 3rd party kernel driver modules including graphic drivers should not use the Tumbleweed distribution unless they are familiar with updating these drivers from source on their own or they have supported hardware. For more details please refer to the "Third Party Drivers" section below.
+}}
+{{Point here|[[Image:Icon-info.png|48px|link=]]|
+'''Who should use openSUSE Leap instead of Tumbleweed?'''
+
+While every effort is made to build them, at this point there is no guarantee to have all additional modules available in openSUSE Tumbleweed like for example, VMware or VirtualBox. And while the Packman Tumbleweed Essential repository attempts to deliver them there is no guarantee they will always succeed due to the incompatibilities with the quickly advancing Linux kernel. The problems with proprietary graphics drivers are similar and there is no guarantee they will work tomorrow, even if they do today. If you don't know how to compile your own additional kernel modules and you don't wish to learn or keep a very close eye on what is being updated, please don't use Tumbleweed.
+}}
+
+{{Point here|[[Image:Icon-usage.png|48px|link=]]|
+'''How to try Tumbleweed?'''
+
+To get started with Tumbleweed follow the [[openSUSE:Tumbleweed_installation|Tumbleweed Installation Instructions]]
+
+Follow the [http://lists.opensuse.org/opensuse-factory/ opensuse-factory] mailing list to get notified about updates. New snapshots are released as often as they are ready and automatic QA has passed. This can be as often as daily but sometimes also takes a few weeks, when bigger changes are integrated.  
+}}
+
+{{Point here|[[Image:Icon-warning.png|48px|link=]]|
+'''Rolling release means no updates, only urgent patches and upgrades'''
+
+When updating Tumbleweed, you can use YaST or the system update applet just as on Leap.
+
+To keep Tumbleweed updated to the latest snapshot using zypper, run the following command '''as root''' (ideally inside a screen or tmux session):
+
+<pre>zypper dup</pre>
+
+Note that there can be some subtleties with updates, especially with multiple repositories.  See for example [https://lists.opensuse.org/opensuse-factory/2016-12/msg00326.html recent discussion about using zypper dup versus zypper up] and [https://forums.opensuse.org/showthread.php/531333-Zypper-dup-priorities zypper dup priorities].
+}}
+
+{{Point here|[[Image:Icon-info.png|48px|link=]]|
+'''Multimedia Codecs'''
+
+Due to the licensing issues, openSUSE cannot include certain multimedia codecs such as H.264.  Without these codecs, videos from certain websites, music files, sounds, etc may fail to play.  Fortunately, the [http://packman.links2linux.org/ Packman] repository provides these codecs (along with many other things) for openSUSE. More details about Packman can be found at [[Additional_package_repositories#Packman|additional package repositories]].
+
+To add only the Packman Essentials repository (provides codecs, audio, and video player applications) and install missing codecs, run the following commands '''as root''':
+
+<pre>zypper ar -cfp 999 http://ftp.gwdg.de/pub/linux/misc/packman/suse/\
+openSUSE_Tumbleweed/Essentials packman-essentials
+zypper dup --from packman-essentials --allow-vendor-change</pre>
+
+After installing the codecs from Packman, [https://youtube.com/html5 YouTube's HTML5 Video Player] test may be ran to see if H.264 is working properly in a browser.
+
+To add the entire Packman repository and install missing codecs, you can either start the YaST repository manager, click "Add", select "Community repositories", and check "Packman"; or, on the console, run the following commands '''as root''':
+
+<pre>zypper ar -cfp 999 http://ftp.gwdg.de/pub/linux/misc/packman/suse/\
+openSUSE_Tumbleweed/ packman
+zypper dup --from packman --allow-vendor-change</pre>
+
+}}
+
+{{Point here|[[Image:Icon-warning.png|48px|link=]]|
+'''Third Party Drivers'''
+
+Due to the fast pace of kernel upgrades on Tumbleweed, 3rd party kernel driver modules may not be fast enough to catch up with the latest kernel version. In the unlikely case that your kernel driver module does not work on Tumbleweed, please consider using openSUSE Leap instead.
+
+'''NVidia'''’s proprietary driver generally works very well with Tumbleweed.
+
+NVidia proprietary drivers for GeForce 400 series and newer GPUs can be easily installed in Tumbleweed using the following commands '''as root''':
+
+<pre>zypper ar -f https://download.nvidia.com/opensuse/tumbleweed nvidia
+zypper inr</pre>
+
+In extremely rare cases, for example if you require a beta version of the driver, you can also manually install the driver. Read [[SDB:NVIDIA the hard way|NVidia – The hard way]] for details. Please remember to also re-compile and re-install these third party drivers with every kernel upgrade on Tumbleweed.
+
+Alternatively, the [https://software.opensuse.org/package/dkms-nvidia dkms-nvidia] openSUSE Build Service repository may be used.  This repository provides NVIDIA drivers that work with dkms (NVIDIA's modules will be automatically recompiled for each new kernel update).  It also contains a variety of NVIDIA driver versions for use with cards that are not supported with or do not behave well with the latest drivers.  To make use of this repository, simply click the 1 Click Install link for the driver version you wish to install [https://software.opensuse.org/package/dkms-nvidia here] or run the following commands '''as root''' for the latest NVIDIA driver from dkms-nvidia:
+
+<pre>zypper ar -f https://download.opensuse.org/\
+repositories/home:/Bumblebee-Project:/nVidia:/latest/\
+openSUSE_Tumbleweed/home:Bumblebee-Project:nVidia:latest.repo
+zypper in dkms-nvidia</pre>
+
+Please note that the dkms-nvidia repository is '''not officially supported''' and anyone who wishes to use it will most likely be on their own for troubleshooting problems.
+
+As for '''AMD''', [[SDB:AMDGPU-PRO|AMDGPU-PRO]] is not supported for Tumbleweed. Tumbleweed comes with a Radeon driver installed out of the box that is usually the superior choice anyway.
+}}
+
+{{Point here|[[Image:Icon-user.png|48px|link=]]|
+'''How can I contribute?'''
+
+* You can test the Tumbleweed distribution and give feedback, share experience and participate in the development discussions. To do so, send your mail to the list address, [mailto:opensuse-factory@opensuse.org opensuse-factory@opensuse.org].
+* If you encounter trouble with your Tumbleweed instance you can report issues to [https://bugzilla.opensuse.org openSUSE bugzilla].
+* If you are a packager, you can submit new packages to the [[Portal:Factory|openSUSE:Factory]] project.
+}}
