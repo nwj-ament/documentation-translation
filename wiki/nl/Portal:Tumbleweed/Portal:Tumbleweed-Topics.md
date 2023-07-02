@@ -5,10 +5,10 @@ Elke gebruiker die nieuwere pakketten wenst dan diegenen die in beschikbaar zijn
 
 Tumbleweed zal voornamelijk bij Power Users, Software Ontwikkelaars (zij hebben de laatste software stacks en IDEs nodig) en openSUSE bijdragers (zij hebben een betrouwebaar platform nodig dat zo dicht als mogelijk tegen [[Portal:Factory|openSUSE Factory]] aan zit maar wel bruikbaar is).
 
-Due to the Linux kernel being updated very frequently, users who rely on 3rd party kernel driver modules including graphic drivers should not use the Tumbleweed distribution unless they are familiar with updating these drivers from source on their own or they have supported hardware. For more details please refer to the "Third Party Drivers" section below.
+Doordat de Linux kernel vaak wordt geupdatet, is het verstandig voor gebruikers die afhankelijk zijn van 3e partij kernel driver modules (inclusief grafische drivers) om Tumbleweed niet te gebruiken tenzij men bekend is met het zelf updaten van deze drivers vanaf de broncode of wanneer ze ondersteunde hardware hebben. Voor meer details kijk in de paragraaf "Derde partij dribvers" hieronder.
 }}
 {{Point here|[[Image:Icon-info.png|48px|link=]]|
-'''Who should use openSUSE Leap instead of Tumbleweed?'''
+'''Wie zou openSUSE Leap moeten gebruiken in plaats van Tumbleweed?'''
 
 While every effort is made to build them, at this point there is no guarantee to have all additional modules available in openSUSE Tumbleweed like for example, VMware or VirtualBox. And while the Packman Tumbleweed Essential repository attempts to deliver them there is no guarantee they will always succeed due to the incompatibilities with the quickly advancing Linux kernel. The problems with proprietary graphics drivers are similar and there is no guarantee they will work tomorrow, even if they do today. If you don't know how to compile your own additional kernel modules and you don't wish to learn or keep a very close eye on what is being updated, please don't use Tumbleweed.
 }}
