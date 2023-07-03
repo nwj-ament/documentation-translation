@@ -18,15 +18,15 @@ Hoewel we alles doen om zoveel mogelijk modules te beschikbaar te maken, kunnen 
 
 Om te beginnen met Tumbleweed volg de [[openSUSE:Tumbleweed_installatie|Tumbleweed Installatie Instructies]]
 
-Follow the [http://lists.opensuse.org/opensuse-factory/ opensuse-factory] mailing list to get notified about updates. New snapshots are released as often as they are ready and automatic QA has passed. This can be as often as daily but sometimes also takes a few weeks, when bigger changes are integrated.  
+Volg de [http://lists.opensuse.org/opensuse-factory/ opensuse-factory] mailing lijst om bericht te krijgen wanneer er updates zijn. Nieuwe snapshots worden gereleased zo vaak als dat ze klaar zijn en door de automatische QA (kwaliteitscontrole) komt. Dit kan zo vaak zijn als dagelijk maar soms ook eens in de paar weken, zeker wanneer er grote wijzigingen worden geïntegreerd.  
 }}
 
 {{Point here|[[Image:Icon-warning.png|48px|link=]]|
-'''Rolling release means no updates, only urgent patches and upgrades'''
+'''Rollende release betekent geen updates, welke urgente patches upgrades'''
 
-When updating Tumbleweed, you can use YaST or the system update applet just as on Leap.
+Wanneer je Tumbleweed update, kun je YaST or het systeem update applet gebruiken, net zoals in Leap.
 
-To keep Tumbleweed updated to the latest snapshot using zypper, run the following command '''as root''' (ideally inside a screen or tmux session):
+Om Tumbleweed up-to-date te houden bij met het laatste snapshot door middel van zypper, gebruik dan het volgende comando '''als root''' (idealiter in een screen of tmux sessie):
 
 <pre>zypper dup</pre>
 
