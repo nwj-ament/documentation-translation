@@ -10,7 +10,7 @@ Doordat de Linux kernel vaak wordt geupdatet, is het verstandig voor gebruikers 
 {{Point here|[[Image:Icon-info.png|48px|link=]]|
 '''Wie zou openSUSE Leap moeten gebruiken in plaats van Tumbleweed?'''
 
-Hoewel we alles doen om zoveel mogelijk modules te beschikbaar te maken, kunnen we niet garanderen dat ze allemaal beschikbaar zijn in openSUSE Tumbleweed. Denk hierbij aan modules van VMware of VirtualBox. Packman Tumbleweed Essential opslagruimte probeert ze te leveren maar er is geen garantie dat het altijd lukt omdat er incompatibiliteiten kunnen zijn met de snel voortschrijdende Linux Kernel. De problemen met propietary grafische drivers zijn hiermee vergelijkbaar en er is geen garantie dat ze morgen no werken ook al werken ze vandaag. Als je niet weet hoe je aanvullende kernel modules compileert en wil je dit ook niet leren of wilt u een kritisch ooh houden op wat er geupdatet wordt, dan is het niet raadzaam om Tumbleweed te installeren.
+Hoewel we alles doen om zoveel mogelijk modules te beschikbaar te maken, kunnen we niet garanderen dat ze allemaal beschikbaar zijn in openSUSE Tumbleweed. Denk hierbij aan modules van VMware of VirtualBox. Packman Tumbleweed Essential opslagruimte probeert ze te leveren maar er is geen garantie dat het altijd lukt omdat er incompatibiliteiten kunnen zijn met de snel voortschrijdende Linux Kernel. De problemen met propietary grafische drivers zijn hiermee vergelijkbaar en er is geen garantie dat ze morgen no werken ook al werken ze vandaag. Als je niet weet hoe je aanvullende kernel modules compileert en wil je dit ook niet leren of wilt u een kritisch oog houden op wat er geupdatet wordt, dan is het niet raadzaam om Tumbleweed te installeren.
 }}
 
 {{Point here|[[Image:Icon-usage.png|48px|link=]]|
