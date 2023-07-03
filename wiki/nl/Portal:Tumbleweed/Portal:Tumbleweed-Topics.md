@@ -46,7 +46,7 @@ zypper dup --from packman-essentials --allow-vendor-change</pre>
 
 Na het installeren van de codecs uit Packman, kan via [https://youtube.com/html5 YouTube's HTML5 Video Player] getest worden of H.264 goed werkt in een browser.
 
-Om de volledige Packman opslagruimte toe te voegen en missende codecs te installeren, doe dit of via de YaST opslagruimten manager, click "Toevoegen", select "Community opslagruimtes", en tik "Packman"; of, in de console, voer het volgende commando '''als root''' uit:
+Om de volledige Packman opslagruimte toe te voegen en missende codecs te installeren, doe dit of via de YaST opslagruimten manager, click "Toevoegen", select "Community opslagruimtes", en tik "Packman"; of voer in de console het volgende commando '''als root''' uit:
 
 <pre>zypper ar -cfp 999 http://ftp.gwdg.de/pub/linux/misc/packman/suse/\
 openSUSE_Tumbleweed/ packman
@@ -55,9 +55,9 @@ zypper dup --from packman --allow-vendor-change</pre>
 }}
 
 {{Point here|[[Image:Icon-warning.png|48px|link=]]|
-'''Third Party Drivers'''
+'''Drivers van derde partijen'''
 
-Due to the fast pace of kernel upgrades on Tumbleweed, 3rd party kernel driver modules may not be fast enough to catch up with the latest kernel version. In the unlikely case that your kernel driver module does not work on Tumbleweed, please consider using openSUSE Leap instead.
+Doordat de kernel upgrades van Tumbleweed snel op elkaar volgen kan het gebeurden dat bepaalde driver modules Due to the fast pace of kernel upgrades on Tumbleweed, 3rd party kernel driver modules may not be fast enough to catch up with the latest kernel version. In the unlikely case that your kernel driver module does not work on Tumbleweed, please consider using openSUSE Leap instead.
 
 '''NVidia'''’s proprietary driver generally works very well with Tumbleweed.
 
