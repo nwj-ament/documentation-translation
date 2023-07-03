@@ -46,7 +46,7 @@ zypper dup --from packman-essentials --allow-vendor-change</pre>
 
 Na het installeren van de codecs uit Packman, kan via [https://youtube.com/html5 YouTube's HTML5 Video Player] getest worden of H.264 goed werkt in een browser.
 
-Om de volledige Packman opslagruimte toe te voegen en missende codecs te installeren, doe dit of via de YaST opslagruimten manager, click "Toevoegen", select "Community opslagruimtes", en tik "Packman"; of voer in de console het volgende commando '''als root''' uit:
+Om de volledige Packman opslagruimte toe te voegen en missende codecs te installeren, doe dit of via de YaST opslagruimten manager, klik "Toevoegen", selecteer "Community opslagruimtes", en tik "Packman"; of voer in de console het volgende commando '''als root''' uit:
 
 <pre>zypper ar -cfp 999 http://ftp.gwdg.de/pub/linux/misc/packman/suse/\
 openSUSE_Tumbleweed/ packman
@@ -57,33 +57,33 @@ zypper dup --from packman --allow-vendor-change</pre>
 {{Point here|[[Image:Icon-warning.png|48px|link=]]|
 '''Drivers van derde partijen'''
 
-Doordat de kernel upgrades van Tumbleweed snel op elkaar volgen kan het gebeurden dat bepaalde driver modules Due to the fast pace of kernel upgrades on Tumbleweed, 3rd party kernel driver modules may not be fast enough to catch up with the latest kernel version. In the unlikely case that your kernel driver module does not work on Tumbleweed, please consider using openSUSE Leap instead.
+Doordat de kernel upgrades van Tumbleweed snel op elkaar volgen kan het gebeurden dat bepaalde derde partij driver modules niet snel genoeg zijn bijgewerkt voor de nieuwste kernel versie. In het onwaarschijnlijke geval dat je kernel driver module niet werkt in Tumbleweed, kies in dat geval voor openSUSE Leap.
 
-'''NVidia'''’s proprietary driver generally works very well with Tumbleweed.
+'''NVidia'''’s proprietary driver werkt in zijn algemeenheid zeer goed met Tumbleweed.
 
-NVidia proprietary drivers for GeForce 400 series and newer GPUs can be easily installed in Tumbleweed using the following commands '''as root''':
+NVidia proprietary drivers voor GeForce 400 series and nieuwere GPUs kunnen eenvoudig worden geïnstalleerd in Tumbleweed door het volgende commando's '''als root''' te gebruiken:
 
 <pre>zypper ar -f https://download.nvidia.com/opensuse/tumbleweed nvidia
 zypper inr</pre>
 
-In extremely rare cases, for example if you require a beta version of the driver, you can also manually install the driver. Read [[SDB:NVIDIA the hard way|NVidia – The hard way]] for details. Please remember to also re-compile and re-install these third party drivers with every kernel upgrade on Tumbleweed.
+In extreme gevallen, bijvoorbeeld wanneer je een beta versie avn een driver nodig hebt, kun je deze ook handmatig installeren. Lees [[SDB:NVIDIA the hard way|NVidia – The hard way]] voor details. Denk eraan om het hercompileren en herinstalleren van deze derde partij drivers bij elke kernel upgrade van Tumbleweed.
 
-Alternatively, the [https://software.opensuse.org/package/dkms-nvidia dkms-nvidia] openSUSE Build Service repository may be used.  This repository provides NVIDIA drivers that work with dkms (NVIDIA's modules will be automatically recompiled for each new kernel update).  It also contains a variety of NVIDIA driver versions for use with cards that are not supported with or do not behave well with the latest drivers.  To make use of this repository, simply click the 1 Click Install link for the driver version you wish to install [https://software.opensuse.org/package/dkms-nvidia here] or run the following commands '''as root''' for the latest NVIDIA driver from dkms-nvidia:
+Als alternatief de [https://software.opensuse.org/package/dkms-nvidia dkms-nvidia] openSUSE Build Service opslagruimte may be used.  Deze opslagruimte bevats NVIDIA drivers die werken met dkms (NVIDIA's modules worde automatisch opnieuw gecompileerd bij elke nieuwe kernel update).  Het bevat tevens een aantal NVIDIA driver versions voor gebruik met kaarten die niet ondersteund worden of niet goed werken met de laatste drivers. Om gebruik te maken van deze opslagruimte, klik eenvrougi op de 1-klik-installeer link voor de driver versie die je wenst te installeren [https://software.opensuse.org/package/dkms-nvidia here] of voer de volgende commando's '''als root''' uit voor de laatste NVIDIA drivers van dkms-nvidia:
 
 <pre>zypper ar -f https://download.opensuse.org/\
 repositories/home:/Bumblebee-Project:/nVidia:/latest/\
 openSUSE_Tumbleweed/home:Bumblebee-Project:nVidia:latest.repo
 zypper in dkms-nvidia</pre>
 
-Please note that the dkms-nvidia repository is '''not officially supported''' and anyone who wishes to use it will most likely be on their own for troubleshooting problems.
+Houd er rekening mee dat de dkms-nvidia opslagruimte '''not officieel ondersteund wordt''' en iedereen wie dat wil gebruiken is waarschijnlijk aangewezen op het eigen onderzoek met het oplossen van problemen.
 
-As for '''AMD''', [[SDB:AMDGPU-PRO|AMDGPU-PRO]] is not supported for Tumbleweed. Tumbleweed comes with a Radeon driver installed out of the box that is usually the superior choice anyway.
+Voor '''AMD''', [[SDB:AMDGPU-PRO|AMDGPU-PRO]] geldt dat deze niet is ondersteund voor Tumbleweed. Tumbleweed is standaard uitgerust met een Radeon driver die sowieso vaak de betere keus is.
 }}
 
 {{Point here|[[Image:Icon-user.png|48px|link=]]|
-'''How can I contribute?'''
+'''Hoe kan ik bijdragen?'''
 
-* You can test the Tumbleweed distribution and give feedback, share experience and participate in the development discussions. To do so, send your mail to the list address, [mailto:opensuse-factory@opensuse.org opensuse-factory@opensuse.org].
-* If you encounter trouble with your Tumbleweed instance you can report issues to [https://bugzilla.opensuse.org openSUSE bugzilla].
-* If you are a packager, you can submit new packages to the [[Portal:Factory|openSUSE:Factory]] project.
+* Je kunt de Tumbleweed distributie testen en feedback geven, ervaring delen en deelnemen aan discussies aangaande de ontwikkeling. Om deel te nemen stuur je een e-mail naar het mailinglist adres [mailto:opensuse-factory@opensuse.org opensuse-factory@opensuse.org].
+* Als je problemen ervaart met je Tumbleweed installatie kun je bugs rapporteren op de [https://bugzilla.opensuse.org openSUSE bugzilla].
+* Wanneer je een packager bent, kun je nieuwe pakketten indienen bij het [[Portal:Factory|openSUSE:Factory]] project.
 }}
