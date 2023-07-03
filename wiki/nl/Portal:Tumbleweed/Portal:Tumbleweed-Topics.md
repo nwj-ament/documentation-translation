@@ -36,17 +36,17 @@ Let op de afstemming met updates, zeker wanneer er sprake is van meerdere opslag
 {{Point here|[[Image:Icon-info.png|48px|link=]]|
 '''Multimedia Codecs'''
 
-In verband met licentie issues kan openSUSE bepaalde media codecs, zoals H.264 niet meeleveren. Zonder deze codecs kunnen video's van bepaalde websites, muziek bestanden, geluiden enz. niet afspelen. Fortunately, the [http://packman.links2linux.org/ Packman] repository provides these codecs (along with many other things) for openSUSE. More details about Packman can be found at [[Additional_package_repositories#Packman|additional package repositories]].
+In verband met licentie issues kan openSUSE bepaalde media codecs, zoals H.264 niet meeleveren. Zonder deze codecs kunnen video's van bepaalde websites, muziek bestanden, geluiden enz. niet afspelen. Gelukkig biedt de [http://packman.links2linux.org/ Packman] opslagruimte deze codecs (samen met een hoop andere pakketten) voor openSUSE. Meer details over Packman kun je vinden bij [[Additional_package_repositories#Packman|additionele pakket opslagruimtes]].
 
-To add only the Packman Essentials repository (provides codecs, audio, and video player applications) and install missing codecs, run the following commands '''as root''':
+Om aleen de Packman Essentials opslagruimte (voorziet in codecs, audio en video speler applicaties) en de missende codecs te installeren voer het volgende commando '''als root''' uit:
 
 <pre>zypper ar -cfp 999 http://ftp.gwdg.de/pub/linux/misc/packman/suse/\
 openSUSE_Tumbleweed/Essentials packman-essentials
 zypper dup --from packman-essentials --allow-vendor-change</pre>
 
-After installing the codecs from Packman, [https://youtube.com/html5 YouTube's HTML5 Video Player] test may be ran to see if H.264 is working properly in a browser.
+Na het installeren van de codecs uit Packman, kan via [https://youtube.com/html5 YouTube's HTML5 Video Player] getest worden of H.264 goed werkt in een browser.
 
-To add the entire Packman repository and install missing codecs, you can either start the YaST repository manager, click "Add", select "Community repositories", and check "Packman"; or, on the console, run the following commands '''as root''':
+Om de volledige Packman opslagruimte toe te voegen en missende codecs te installeren, doe dit of via de YaST opslagruimten manager, click "Toevoegen", select "Community opslagruimtes", en tik "Packman"; of, in de console, voer het volgende commando '''als root''' uit:
 
 <pre>zypper ar -cfp 999 http://ftp.gwdg.de/pub/linux/misc/packman/suse/\
 openSUSE_Tumbleweed/ packman
