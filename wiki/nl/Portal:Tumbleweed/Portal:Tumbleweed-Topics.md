@@ -10,7 +10,7 @@ Doordat de Linux kernel vaak wordt geupdatet, is het verstandig voor gebruikers 
 {{Point here|[[Image:Icon-info.png|48px|link=]]|
 '''Wie zou openSUSE Leap moeten gebruiken in plaats van Tumbleweed?'''
 
-Hoewel we alles doen om zoveel mogelijk modules te beschikbaar te maken, kunnen we niet garanderen dat ze allemaal beschikbaar zijn in openSUSE Tumbleweed. Denk hierbij aan modules van VMware of VirtualBox. Packman Tumbleweed Essential opslagruimte probeert ze te leveren maar er is geen garantie dat het altijd lukt omdat er incompatibiliteiten kunnen zijn met de snel voortschrijdende Linux Kernel. De problemen met propietary grafische drivers zijn hiermee vergelijkbaar en er is geen garantie dat ze morgen no werken ook al werken ze vandaag. Als je niet weet hoe je aanvullende kernel modules compileert en wil je dit ook niet leren of wilt u een kritisch oog houden op wat er geupdatet wordt, dan is het niet raadzaam om Tumbleweed te installeren.
+Hoewel we alles doen om zoveel mogelijk modules te beschikbaar te maken, kunnen we niet garanderen dat ze allemaal beschikbaar zijn in openSUSE Tumbleweed. Denk hierbij aan modules van VMware of VirtualBox. Packman Tumbleweed Essential opslagruimte probeert ze te leveren maar er is geen garantie dat het altijd lukt omdat er incompatibiliteiten kunnen zijn met de snel voortschrijdende Linux kernel. De problemen met propietary grafische drivers zijn hiermee vergelijkbaar en er is geen garantie dat ze morgen no werken ook al werken ze vandaag. Als je niet weet hoe je aanvullende kernel modules compileert en wil je dit ook niet leren of wilt u een kritisch oog houden op wat er geüpdatet wordt, dan is het niet raadzaam om Tumbleweed te installeren.
 }}
 
 {{Point here|[[Image:Icon-usage.png|48px|link=]]|
@@ -24,19 +24,19 @@ Volg de [http://lists.opensuse.org/opensuse-factory/ opensuse-factory] mailing l
 {{Point here|[[Image:Icon-warning.png|48px|link=]]|
 '''Rollende release betekent geen updates, welke urgente patches upgrades'''
 
-Wanneer je Tumbleweed update, kun je YaST or het systeem update applet gebruiken, net zoals in Leap.
+Wanneer je Tumbleweed update, kun je YaST of de systeem update applet gebruiken, net zoals in Leap.
 
 Om Tumbleweed up-to-date te houden bij met het laatste snapshot door middel van zypper, gebruik dan het volgende comando '''als root''' (idealiter in een screen of tmux sessie):
 
 <pre>zypper dup</pre>
 
-Note that there can be some subtleties with updates, especially with multiple repositories.  See for example [https://lists.opensuse.org/opensuse-factory/2016-12/msg00326.html recent discussion about using zypper dup versus zypper up] and [https://forums.opensuse.org/showthread.php/531333-Zypper-dup-priorities zypper dup priorities].
+Let op de afstemming met updates, zeker wanneer er sprake is van meerdere opslagruimtes.  Zie bijvoorbeeld [https://lists.opensuse.org/opensuse-factory/2016-12/msg00326.html recent discussion about using zypper dup versus zypper up] en [https://forums.opensuse.org/showthread.php/531333-Zypper-dup-priorities zypper dup priorities].
 }}
 
 {{Point here|[[Image:Icon-info.png|48px|link=]]|
 '''Multimedia Codecs'''
 
-Due to the licensing issues, openSUSE cannot include certain multimedia codecs such as H.264.  Without these codecs, videos from certain websites, music files, sounds, etc may fail to play.  Fortunately, the [http://packman.links2linux.org/ Packman] repository provides these codecs (along with many other things) for openSUSE. More details about Packman can be found at [[Additional_package_repositories#Packman|additional package repositories]].
+In verband met licentie issues kan openSUSE bepaalde media codecs, zoals H.264 niet meeleveren. Zonder deze codecs kunnen video's van bepaalde websites, muziek bestanden, geluiden enz. niet afspelen. Fortunately, the [http://packman.links2linux.org/ Packman] repository provides these codecs (along with many other things) for openSUSE. More details about Packman can be found at [[Additional_package_repositories#Packman|additional package repositories]].
 
 To add only the Packman Essentials repository (provides codecs, audio, and video player applications) and install missing codecs, run the following commands '''as root''':
 
