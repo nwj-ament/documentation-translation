@@ -3,20 +3,20 @@
 
 Elke gebruiker die nieuwere pakketten wenst dan diegenen die in beschikbaar zijn in de [[Portal:Leap|openSUSE Leap]] repositories.  Dit omvat onder andere een geüpdate Linux Kernel, SAMBA, git, desktops, office applicaties en vele andere pakketten
 
-Tumbleweed zal voornamelijk bij Power Users, Software Ontwikkelaars (zij hebben de laatste software stacks en IDEs nodig) en openSUSE bijdragers (zij hebben een betrouwebaar platform nodig dat zo dicht als mogelijk tegen [[Portal:Factory|openSUSE Factory]] aan zit maar wel bruikbaar is).
+Tumbleweed zal voornamelijk bij Power Users, Software Ontwikkelaars (zij hebben de laatste software stacks en IDEs nodig) en openSUSE bijdragers (zij hebben een betrouwbaar platform nodig dat zo dicht als mogelijk tegen [[Portal:Factory|openSUSE Factory]] aan zit maar wel bruikbaar is).
 
-Doordat de Linux kernel vaak wordt geupdatet, is het verstandig voor gebruikers die afhankelijk zijn van 3e partij kernel driver modules (inclusief grafische drivers) om Tumbleweed niet te gebruiken tenzij men bekend is met het zelf updaten van deze drivers vanaf de broncode of wanneer ze ondersteunde hardware hebben. Voor meer details kijk in de paragraaf "Derde partij dribvers" hieronder.
+Doordat de Linux kernel vaak wordt geupdatet, is het verstandig voor gebruikers die afhankelijk zijn van 3e partij kernel driver modules (inclusief grafische drivers) om Tumbleweed niet te gebruiken tenzij men bekend is met het zelf updaten van deze drivers vanaf de broncode of wanneer ze ondersteunde hardware hebben. Voor meer details kijk in de paragraaf "Derde partij drivers" hieronder.
 }}
 {{Point here|[[Image:Icon-info.png|48px|link=]]|
 '''Wie zou openSUSE Leap moeten gebruiken in plaats van Tumbleweed?'''
 
-Hoewel we alles doen om zoveel mogelijk modules te beschikbaar te maken, kunnen we niet garanderen dat ze allemaal beschikbaar zijn in openSUSE Tumbleweed. Denk hierbij aan modules van VMware of VirtualBox. Packman Tumbleweed Essential opslagruimte probeert ze te leveren maar er is geen garantie dat het altijd lukt omdat er incompatibiliteiten kunnen zijn met de snel voortschreidende Linux Kernel. The problems with proprietary graphics drivers are similar and there is no guarantee they will work tomorrow, even if they do today. If you don't know how to compile your own additional kernel modules and you don't wish to learn or keep a very close eye on what is being updated, please don't use Tumbleweed.
+Hoewel we alles doen om zoveel mogelijk modules te beschikbaar te maken, kunnen we niet garanderen dat ze allemaal beschikbaar zijn in openSUSE Tumbleweed. Denk hierbij aan modules van VMware of VirtualBox. Packman Tumbleweed Essential opslagruimte probeert ze te leveren maar er is geen garantie dat het altijd lukt omdat er incompatibiliteiten kunnen zijn met de snel voortschrijdende Linux Kernel. De problemen met propietary grafische drivers zijn hiermee vergelijkbaar en er is geen garantie dat ze morgen no werken ook al werken ze vandaag. Als je niet weet hoe je aanvullende kernel modules compileert en wil je dit ook niet leren of wilt u een kritisch ooh houden op wat er geupdatet wordt, dan is het niet raadzaam om Tumbleweed te installeren.
 }}
 
 {{Point here|[[Image:Icon-usage.png|48px|link=]]|
-'''How to try Tumbleweed?'''
+'''Hoe Tumbleweed te proberen?'''
 
-To get started with Tumbleweed follow the [[openSUSE:Tumbleweed_installation|Tumbleweed Installation Instructions]]
+Om te beginnen met Tumbleweed volg de [[openSUSE:Tumbleweed_installatie|Tumbleweed Installatie Instructies]]
 
 Follow the [http://lists.opensuse.org/opensuse-factory/ opensuse-factory] mailing list to get notified about updates. New snapshots are released as often as they are ready and automatic QA has passed. This can be as often as daily but sometimes also takes a few weeks, when bigger changes are integrated.  
 }}
