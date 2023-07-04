@@ -21,7 +21,7 @@ Om te beginnen met Tumbleweed volg de [[openSUSE:Tumbleweed_installatie|Tumblewe
 Volg de [http://lists.opensuse.org/opensuse-factory/ opensuse-factory] mailing lijst om bericht te krijgen wanneer er updates zijn. Nieuwe snapshots worden gereleased zo vaak als dat ze klaar zijn en door de automatische QA (kwaliteitscontrole) komt. Dit kan zo vaak zijn als dagelijk maar soms ook eens in de paar weken, zeker wanneer er grote wijzigingen worden geïntegreerd.  
 }}
 
-{{Point here|[[Image:Icon-warning.png|48px|link=]]|
+{{Point |[[Image:Icon-warning.png|48px|link=]]|
 '''Rollende release betekent geen updates, welke urgente patches upgrades'''
 
 Wanneer je Tumbleweed update, kun je YaST of de systeem update applet gebruiken, net zoals in Leap.
@@ -33,7 +33,7 @@ Om Tumbleweed up-to-date te houden bij met het laatste snapshot door middel van 
 Let op de afstemming met updates, zeker wanneer er sprake is van meerdere opslagruimtes.  Zie bijvoorbeeld [https://lists.opensuse.org/opensuse-factory/2016-12/msg00326.html recent discussion about using zypper dup versus zypper up] en [https://forums.opensuse.org/showthread.php/531333-Zypper-dup-priorities zypper dup priorities].
 }}
 
-{{Point here|[[Image:Icon-info.png|48px|link=]]|
+{{Point |[[Image:Icon-info.png|48px|link=]]|
 '''Multimedia Codecs'''
 
 In verband met licentie issues kan openSUSE bepaalde media codecs, zoals H.264 niet meeleveren. Zonder deze codecs kunnen video's van bepaalde websites, muziek bestanden, geluiden enz. niet afspelen. Gelukkig biedt de [http://packman.links2linux.org/ Packman] opslagruimte deze codecs (samen met een hoop andere pakketten) voor openSUSE. Meer details over Packman kun je vinden bij [[Additional_package_repositories#Packman|additionele pakket opslagruimtes]].
@@ -68,7 +68,7 @@ zypper inr</pre>
 
 In extreme gevallen, bijvoorbeeld wanneer je een beta versie avn een driver nodig hebt, kun je deze ook handmatig installeren. Lees [[SDB:NVIDIA the hard way|NVidia – The hard way]] voor details. Denk eraan om het hercompileren en herinstalleren van deze derde partij drivers bij elke kernel upgrade van Tumbleweed.
 
-Als alternatief de [https://software.opensuse.org/package/dkms-nvidia dkms-nvidia] openSUSE Build Service opslagruimte may be used.  Deze opslagruimte bevats NVIDIA drivers die werken met dkms (NVIDIA's modules worde automatisch opnieuw gecompileerd bij elke nieuwe kernel update).  Het bevat tevens een aantal NVIDIA driver versions voor gebruik met kaarten die niet ondersteund worden of niet goed werken met de laatste drivers. Om gebruik te maken van deze opslagruimte, klik eenvrougi op de 1-klik-installeer link voor de driver versie die je wenst te installeren [https://software.opensuse.org/package/dkms-nvidia here] of voer de volgende commando's '''als root''' uit voor de laatste NVIDIA drivers van dkms-nvidia:
+Als alternatief de [https://software.opensuse.org/package/dkms-nvidia dkms-nvidia] openSUSE Build Service opslagruimte may be used.  Deze opslagruimte bevats NVIDIA drivers die werken met dkms (NVIDIA's modules worde automatisch opnieuw gecompileerd bij elke nieuwe kernel update).  Het bevat tevens een aantal NVIDIA driver versions voor gebruik met kaarten die niet ondersteund worden of niet goed werken met de laatste drivers. Om gebruik te maken van deze opslagruimte, klik eenvoudig op de 1-klik-installeer link voor de driver versie die je wenst te installeren [https://software.opensuse.org/package/dkms-nvidia hier] of voer de volgende commando's '''als root''' uit voor de laatste NVIDIA drivers van dkms-nvidia:
 
 <pre>zypper ar -f https://download.opensuse.org/\
 repositories/home:/Bumblebee-Project:/nVidia:/latest/\
