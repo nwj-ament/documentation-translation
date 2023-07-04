@@ -1,29 +1,28 @@
 = openSUSE Aeon =
 
-{{Warning|On 27th May, openSUSE MicroOS Desktop was renamed to openSUSE Aeon, and the Plasma Desktop version is being renamed to [[Portal:Kalpa|openSUSE Kalpa]] . Please mind the dust while we migrate everything from MicroOS Desktop to the new name.}}
+{{Warning|Op 27 mei, de openSUSE MicroOS Desktop omgedoopt tot openSUSE Aeon, en de Plasma Desktop variant is hernoemd naar [[Portal:Kalpa|openSUSE Kalpa]] . Pas op voor het neerdalende stof terwijl we alles migreren van MicroOS Desktop naar de nieuwe namen.}}
 
-{{Info|openSUSE Aeon provides only a minimal base system with a GNOME Desktop Environment and Basic Configuration Tools ONLY.
-All Applications, Browsers, Codecs, etc are provided by FlatPaks from FlatHub.}}
+{{Info|openSUSE Aeon biedt ALLEEN een minimaal basissysteem met een GNOME Desktop Omgeving en basis configuratie tools.
+Alle applicaties, Browsers, Codecs, etc worden aangeboden via FlatPaks van FlatHub.}}
 
 {{Point here|[[Image:Icon-warning.png|48px|link=]]|
-openSUSE Aeon is still in a '''Release Candidate''' stage, please keep that in mind!
+openSUSE Aeon is nog steeds in het '''Release Candidate''' stadium. Houd hier rekening mee!
 }}
 ----
-== Who is the openSUSE Aeon for? ==
-It is NOT for everyone. Your highly customisable Tumbleweed & Leap Desktops are Safe and will remain the best choice for those who want to tinker with their Desktop.
+== Voor wie is openSUSE Aeon? ==
+Het is NIET voor iedereen. Je hoogst aanpasbare Tumbleweed & Leap Desktops zijn veilig en blijven de beste keuze voor diegenen die willen knutselen met hun Desktop.
 
-It should be perfect for lazy developers, who no longer want to mess around with their desktop and just ”get stuff
-done”, especially if they develop around containers.
+Het zou perfect zijn voor gemakkelijk aangelegde ontwikkelaars, Die niets aan hun Desktop willen aanpassen alleen maar "hun ding doen", vooral wanneer ze containers ontwikkelen.
 
-It should also appeal to the same audience now more used to an iOS, Chromebook or Android-like experience where the OS is static, automated & reliable and the Apps are the main thing the user cares about.
+Het zal oon hetzelfde publiek aantrekken die gewend zijn aan iOS, Chromebook of Anrdoid-achtige ervaringen waarbij het OS statisch, geautomatiseerd & betrouwbaar is en de Apps de belangrijke zaken zijn voor de gebruiker.
 
-To deep dive on the origins and the case why some users should use openSUSE Aeon check out the following workshop: 
+Wil je in het diepe te duiken over het begin en de redenen waarom sommige gebruikers Aeon zouden moeten gebruiken, kijk naar de volgende workshop: 
 
 https://www.youtube.com/watch?v=lKYLF1tA4Ik&t=1794s
 
 ----
 
-== Design Goals ==
+== Ontwerp Doelen ==
 Aeon should be reliable, predictable & immutable, just like openSUSE MicroOS.
 
 Aeon should be less customisable than regular openSUSE Tumbleweed/Leap.
