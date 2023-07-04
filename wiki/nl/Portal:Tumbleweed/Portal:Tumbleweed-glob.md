@@ -37,27 +37,12 @@ __NOTOC__ __NOEDITSECTION__
 [[cs:Portál:Tumbleweed]]
 [[de:Portal:Tumbleweed]]
 [[el:Portal:Tumbleweed]]
+[[en:Portal:Tumbleweed]]
 [[es:Portal:Tumbleweed]]
 [[fr:Portal:Tumbleweed]]
 [[it:Portal:Tumbleweed]]
 [[ja:Portal:Tumbleweed]]
-[[nl:Portal:Tumbleweed]]
 [[pt:Portal:Tumbleweed]]
 [[ru:Portal:Tumbleweed]]
 [[zh:Portal:Tumbleweed]]
 </noinclude>
-
-
-
-=========================== templates ===================================
-Templates used on this page:
-
-Template:Badge (edit)
-Template:Card (edit)
-Template:EditButton (edit)
-Template:Edit button (edit)
-Template:Point here (edit)
-Portal:Distribution/Releases (edit)
-Portal:Tumbleweed/Intro (edit)
-Portal:Tumbleweed/Navigation (edit)
-Portal:Tumbleweed/Topics (edit)
