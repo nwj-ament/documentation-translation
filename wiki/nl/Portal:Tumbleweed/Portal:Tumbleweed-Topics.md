@@ -1,7 +1,7 @@
 {{Point here|[[Image:Icon-info.png|48px|link=]]|
 '''Voor wie is Tumbleweed bedoeld?'''
 
-Elke gebruiker die nieuwere pakketten wenst dan diegenen die in beschikbaar zijn in de [[Portal:Leap|openSUSE Leap]] repositories.  Dit omvat onder andere een geüpdate Linux Kernel, SAMBA, git, desktops, office applicaties en vele andere pakketten
+Elke gebruiker die nieuwere pakketten wenst dan diegenen die in beschikbaar zijn in de [[Portal:Leap|openSUSE Leap]] opslagruimten.  Dit omvat onder andere een geüpdate Linux Kernel, SAMBA, git, desktops, office applicaties en vele andere pakketten.
 
 Tumbleweed zal voornamelijk bij Power Users, Software Ontwikkelaars (zij hebben de laatste software stacks en IDEs nodig) en openSUSE bijdragers (zij hebben een betrouwbaar platform nodig dat zo dicht als mogelijk tegen [[Portal:Factory|openSUSE Factory]] aan zit maar wel bruikbaar is).
 
