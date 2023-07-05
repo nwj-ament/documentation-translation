@@ -33,29 +33,29 @@ veel meer zal allemaal werken.
 Aeon werkt gewoon “out of the box” zonder de noodzaak van extra configuratie om functionaliteit te krijgen zoals software installatie en web browsen. Alle features die standaard meegeleverd worden werken standaard. Features die niet werken worden niet meegeleverd, zijn onzichtbaar en niet beschikbaar voor gebruikers.
 ----
 
-== How to Download and Install ==
-# Installation media is currently only available under the projects old name of 'MicroOS Desktop'
-# Download the openSUSE MicroOS base ISO image from https://en.opensuse.org/Portal:MicroOS/Downloads
-# Write the ISO on a USB drive and start the installation process.
+== Hoe te downloaden en installeren ==
+# Installatie media is op dit moment alleen beschikbaar onder de oude projectnaam 'MicroOS Desktop'
+# Download het openSUSE MicroOS basis ISO image via https://en.opensuse.org/Portal:MicroOS/Downloads
+# Schrijf het ISO bestand op een USB drive en start het installatieproces.
 
 ----
 
-== Ways to Install Applications in Order of Preference ==
+== Manieren om applicaties te installeren in een bepaalde volgorde ==
 
-Now that you have installed Aeon, you probably want to install software. 
+Nu u Aeon heeft geinstalleerd, wilt u waarschijnlijk software installeren. 
 
-Because it provides only a minimal base system with a Desktop Environment, it is designed to come with only basic configuration tools by default. 
+Omdat Aeon alleen een minimaal basissysteem met een desktop omgeving, is het ontworpen om standaard alleen de basis configuratiemiddelen te hebben. 
 
-For this reason, All Applications, Browsers, Codecs needed for specific apps, etc are provided by FlatPaks from FlatHub. 
+Hierdoor worden alle applicaties, browsers, codecs die nodig zijn voor specifieke apps worden voorzien door FlatPaks via FlatHub.
 
-To make this process even easier for users, the Flathub repository of all available flatpaks have been integrated with Gnome Software. This way, you can simply search and find all your favorite apps in a seamless and integrated way.
+Om dit proces voor gebruikers makkelijker te maken, is de Flathub opslagruimte van alle beschikbare flatpaks geïntegreerd in de GNOME software. Op deze manier kun je eenvoudigweg zoeken naar al je favoriete apps op een naadloze en geïntegreerde manier.
 
-While  there are other ways to install software, it is important to remember that it is STRONGLY recommended to install software in the following order of preference:
+Hoewel er andere manieren zijn om software te installeren, is het belangrijk om te onthouden dat het STERK aanbovelen is om software te installeren in de volgorde zoals deze hieronder staat:
 
-# Flatpaks from your software center of choice or [https://flathub.org/home Flathub]
-# RPM's in a user distrobox ''distrobox-enter''  
-# RPM's in a root distrobox ''distrobox-enter -r''
-# RPM's via transactional-update -- for drivers, kernel modules, strictly what you need for your host operating system to work.
+# Flatpaks van je software center naar keuze of [https://flathub.org/home Flathub]
+# RPM's in een gebruikers distrobox ''distrobox-enter''  
+# RPM's in een root distrobox ''distrobox-enter -r''
+# RPM's via transactional-update -- voor drivers, kernel modules, puur voor wat je nodig hebt om het host besturings systeem te laten werken.
 
 '''To reiterate: EVERYTHING should be done via Flatpaks or be installed in a Distrobox if a package is not available as a flatpak. Using transactional-update is strictly what you need for your host operating system to work (exotic drivers, specialized vpn services).'''
 
