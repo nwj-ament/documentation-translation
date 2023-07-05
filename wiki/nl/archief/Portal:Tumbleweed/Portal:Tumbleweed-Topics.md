@@ -22,7 +22,7 @@ Volg de [http://lists.opensuse.org/opensuse-factory/ opensuse-factory] mailing l
 }}
 
 {{Point here|[[Image:Icon-warning.png|48px|link=]]|
-'''Rollende release betekent geen updates, welke urgente patch upgrades'''
+'''Rollende release betekent geen updates, wel urgente patch upgrades'''
 
 Wanneer je Tumbleweed update, kun je YaST of de systeem update applet gebruiken, net zoals in Leap.
 
