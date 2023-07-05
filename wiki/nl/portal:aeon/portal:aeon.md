@@ -1,6 +1,6 @@
 = openSUSE Aeon =
 
-{{Warning|Op 27 mei is de openSUSE MicroOS Desktop omgedoopt tot openSUSE Aeon, en de Plasma Desktop variant is hernoemd naar [[Portal:Kalpa|openSUSE Kalpa]]. Pas op voor het neerdalende stof terwijl we alles migreren van MicroOS Desktop naar de nieuwe namen.}}
+{{Warning|Op 27 mei is de openSUSE MicroOS Desktop omgedoopt tot openSUSE Aeon en de Plasma Desktop variant is hernoemd naar [[Portal:Kalpa|openSUSE Kalpa]]. Pas op voor het neerdalende stof terwijl we alles migreren van MicroOS Desktop naar de nieuwe namen.}}
 
 {{Info|openSUSE Aeon biedt ALLEEN een minimaal basissysteem met een GNOME Desktop Omgeving en basis configuratie tools.
 Alle applicaties, Browsers, Codecs, etc worden aangeboden via FlatPaks van FlatHub.}}
