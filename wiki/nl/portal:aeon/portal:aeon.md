@@ -204,7 +204,7 @@ openSUSE Aeon heeft diverse plekken om  te praten over het project:
 * ''Matrix'': https://matrix.to/#/#aeon:opensuse.org
 * ''Discord'': https://discord.gg/opensuse #aeon-kalpa channel
 
-Al deze kanalen zijn met elkaar verbonden via Matrix, dus opmerkingen in een kanaal is vanzelf te zien in de andere twee.
+Al deze kanalen zijn met elkaar verbonden via Matrix, dus opmerkingen in een kanaal zijn vanzelf te zien in de andere twee.
 
 
 [[Categorie:Aeon]]
