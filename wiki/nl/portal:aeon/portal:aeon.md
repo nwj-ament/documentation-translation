@@ -14,7 +14,7 @@ Het is NIET voor iedereen. Je hoogst aanpasbare Tumbleweed & Leap Desktops zijn 
 
 Aeon zal perfect zijn voor gemakkelijk aangelegde ontwikkelaars, Die niets aan hun Desktop willen aanpassen alleen maar "hun ding doen", vooral wanneer ze containers ontwikkelen.
 
-Het zal een hetzelfde publiek aantrekken die gewend zijn aan iOS, Chromebook of Anrdoid-achtige ervaringen waarbij het OS statisch, geautomatiseerd & betrouwbaar is en de Apps de belangrijke zaken zijn voor de gebruiker.
+Het zal een hetzelfde publiek aantrekken dat gewend is aan iOS, Chromebook of Anrdoid-achtige ervaringen waarbij het OS statisch, geautomatiseerd & betrouwbaar is en de Apps de belangrijke zaken zijn voor de gebruiker.
 
 Wil je in het diepe te duiken over het begin en de redenen waarom sommige gebruikers Aeon zouden moeten gebruiken, kijk naar de volgende workshop: 
 
