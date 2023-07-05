@@ -174,38 +174,38 @@ For Android Studio:
 
    # sudo getsebool selinuxuser_execstack
 
-If that returns 'selinuxuser_execmod --> disabled' and 'selinuxuser_execstack --> disabled' you will need to enable it.  This can be done temporarily (resets on next boot)
+Wanner de terugkoppeling 'selinuxuser_execmod --> disabled' en 'selinuxuser_execstack --> disabled' dan zul je deze moeten aanzetten.  Dit kan tijdelijk gedaan worden (reset na herstart)
 
-For WINE:
+Voor WINE:
    # sudo setsebool selinuxuser_execmod 1
 
-For Android Studio:
+Voor Android Studio:
    # sudo setsebool selinuxuser_execstack 1
 
-Or can be set Persistent:
+Of kan permanent ingesteld worden:
 
    # sudo setsebool -P selinuxuser_execmod 1
    # sudo setsebool -P selinuxuser_execstack 1
 
-The openSUSE Security team is reviewing these default policies, and you are enabling this at your own risk.  See https://bugzilla.opensuse.org/show_bug.cgi?id=1206292 & https://bugzilla.opensuse.org/show_bug.cgi?id=1206789 for further information.
+Het openSUSE Security team bekijkt deze standaard beleidsregels, en je zet deze aan op je eigen risico. Zie https://bugzilla.opensuse.org/show_bug.cgi?id=1206292 & https://bugzilla.opensuse.org/show_bug.cgi?id=1206789 voor meer informatie.
 
 ----
 
-== Reporting Bugs ==
+== Bugs rapporteren ==
 
-Please use the following link for reporting bugs: [https://bugzilla.opensuse.org/enter_bug.cgi?product=openSUSE+Aeon&format=guided Report a bug for openSUSE Aeon]
+Volg onderstaande link bugs te rapporteren: [https://bugzilla.opensuse.org/enter_bug.cgi?product=openSUSE+Aeon&format=guided Rapporteer een bug voor openSUSE Aeon]
 
-Please see [[openSUSE:Submitting_bug_reports|Submitting Bug Reports]] for more information on how best to file a bug
+Kijk op [[openSUSE:Submitting_bug_reports|Bug rapporten indienen]] voor meer information hoe het beste een bug in te dienen.
 
-== Place for questions ==
-As openSUSE Aeon has various places discuss the project
+== Plek voor vragen ==
+openSUSE Aeon heeft diverse plekken om  te praten over het project:
 
 * ''Telegram'': https://t.me/openSUSE_Aeon
 * ''Matrix'': https://matrix.to/#/#aeon:opensuse.org
 * ''Discord'': https://discord.gg/opensuse #aeon-kalpa channel
 
-All these channels are bridged together via Matrix, so sending your comments in one, will be seen in the other two.
+Al deze kanalen zijn met elkaar verbonden via Matrix, dus opmerkingen in een kanaal is vanzelf te zien in de andere twee.
 
 
-[[Category:Aeon]]
-[[Category:Kalpa]]
+[[Categorie:Aeon]]
+[[Categorie:Kalpa]]
