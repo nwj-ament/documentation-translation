@@ -14,7 +14,7 @@ Het is NIET voor iedereen. Je hoogst aanpasbare Tumbleweed & Leap Desktops zijn 
 
 Aeon zal perfect zijn voor gemakkelijk aangelegde ontwikkelaars, Die niets aan hun Desktop willen aanpassen alleen maar "hun ding doen", vooral wanneer ze containers ontwikkelen.
 
-Het zal oon hetzelfde publiek aantrekken die gewend zijn aan iOS, Chromebook of Anrdoid-achtige ervaringen waarbij het OS statisch, geautomatiseerd & betrouwbaar is en de Apps de belangrijke zaken zijn voor de gebruiker.
+Het zal een hetzelfde publiek aantrekken die gewend zijn aan iOS, Chromebook of Anrdoid-achtige ervaringen waarbij het OS statisch, geautomatiseerd & betrouwbaar is en de Apps de belangrijke zaken zijn voor de gebruiker.
 
 Wil je in het diepe te duiken over het begin en de redenen waarom sommige gebruikers Aeon zouden moeten gebruiken, kijk naar de volgende workshop: 
 
@@ -23,14 +23,14 @@ https://www.youtube.com/watch?v=lKYLF1tA4Ik&t=1794s
 ----
 
 == Ontwerp Doelen ==
-Aeon should be reliable, predictable & immutable, just like openSUSE MicroOS.
+Aeon zal betrouwbaar, voorspelbaar en onveranderlijk zijn, net zoals openSUSE MicroOS.
 
-Aeon should be less customisable than regular openSUSE Tumbleweed/Leap.
+Aeon zal minder instelbaar zijn dan openSUSE Tumbleweed/Leap.
 
-Aeon should be small, but not at the expense of functionality. Printing, Gaming, Media Production and
-much more should all work.
+Aeon is klein, maar dat gaat niet ten koste van de functionaliteit. Printen, Gamen, Media Productie en
+veel meer zal allemaal werken.
 
-Aeon should just work “out of the box” without the need for additional configuration to get key functionality like software installation and web browsing working. All features offered by default should work - features that don't work shouldn't be offered/visible/available to users.
+Aeon werkt gewoon “out of the box” zonder de noodzaak van extra configuratie om functionaliteit te krijgen zoals software installatie en web browsen. Alle features die standaard meegeleverd worden werken standaard. Features die niet werken worden niet meegeleverd, zijn onzichtbaar en niet beschikbaar voor gebruikers.
 ----
 
 == How to Download and Install ==
