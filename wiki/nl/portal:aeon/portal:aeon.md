@@ -63,7 +63,7 @@ Note: Distrobox wordt standaard meegeleverd met Aeon. Het stelt gebruikers in st
 
 ==== Een kennismaking met transactional-update ====
 
-openSUSE Aeon gebruikt ''zypper niet''' zoals openSUSE Tumbleweed of Leap om RPM pakketten te installeren en hen direct te grbuiken. openSUSE Aeon gebruikt '''transactional-update''' met zypper onder de motorkap.
+openSUSE Aeon gebruikt ''zypper niet''' zoals openSUSE Tumbleweed of Leap om RPM pakketten te installeren en hen direct te gebuiken. openSUSE Aeon gebruikt '''transactional-update''' met zypper onder de motorkap.
 In het merendeel van de gevallen hoef je deze commando's niet interactief te gebruiken, omdat Aeon een automatisch update systeem via de ''transactional-update.service'' systemd service.
 
 ==== transactional-update - voorbeeld commando's ==== 
@@ -103,7 +103,7 @@ Met andere woorden ''sudo transactional-update pkg install $pkg1'' gevolgd door 
 
 Dit is het verwachte en logische gedrag - Aeon zal altijd vertrekken vanuit het laatste bekend goede/opgestarte snapshot naar de nieuwste staat in de kortste, minst verstorende weg mogelijk.
 
-Dit vooral begrijpelijk wanneer je er bij stil staat dat Aeon zichzelf update en dat de meeste gebruikers überhaupt ''transactional-update'' niet interactief zullen gebruiken. With ''transactional-update dup'' happening regularly in the background automatically, Aeon wants to make sure it's updating only to the latest clean system update state, not some weird hybrid of previous unbooted, unchecked, intermediate ''transactional-update dup'' that never got booted.
+Dit vooral begrijpelijk wanneer je er bij stil staat dat Aeon zichzelf update en dat de meeste gebruikers überhaupt ''transactional-update'' niet interactief zullen gebruiken. Omdat ''transactional-update dup'' op gezette tijden uitgevoerd wordt in de achtergrond, zorgt Aeon ervoor dat het de update gaat naar de laatste schone systeem update gaat, niet een of andere vreemde hybride van voorgaande niet opgestarte en niet gecontroleerde tussen vorm van ''transactional-update dup''.
 
 However, when ignoring this best practice and using ''transactional-update'' interactively, there may be times where you wish to run ''transactional-update'' against an existing unbooted, unknown-if-good snapshot.
 
