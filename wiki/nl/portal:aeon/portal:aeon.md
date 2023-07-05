@@ -113,60 +113,60 @@ Voorbeeld:
 
 ''sudo transactional-update pkg install $pkg1'' gevolgd door ''sudo transactional-update --continue pkg install $pkg2'' zal $pkg1 installeren en daarna $pkg2 in hetzelfde snapshot als $pkg1, en markeert het gecombineerde snapshot als volgende opstart doel.
 
-If problems occur however, there is no additional complexity figuring out whether it was $pkg1 or $pkg2 that broke anything, as users will need to rollback to the snapshot before $pkg1 was installed to return to the last known good state.
+Wanneer er problemen ontstaan is er echter geen extra complexiteit om uit te zoeken welk pakket het probleem veroorzaakte omdat gebruikers terug zullen moeten gaan naar het eerdere snaptshot voodat $pkg1 was geïnstalleerd. Dit om terug te keren naar de laatst bekend goede staat.
 ----
 
-== GNOME Software + Flathub Integration ==
-Gnome is currently in a '''RC''' stage.
+== GNOME Software + Flathub Integratie ==
+Gnome is momenteel in het '''RC''' stadium.
 
-* At first boot flatpaks are enabled and some flatpaks are installed by default (Mozilla Firefox, Text Editor, Gnome Calculator and Extension Manager).
+* Bij eerste opstart worden flatpaks aangezet en sommige flatpaks standaard geïnstalleerd (Mozilla Firefox, Text Editor, Gnome Calculator en Extension Manager).
 
-* After the first boot script finishes you can open Gnome Software to install more software from flathub. 
+* Na het eindigen van het eerste opstart script kun je Gnome Software openen om meer software te installeren vanuit flathub. 
 
 ----
 
 == DistroBox ==
 
-''Distrobox'' can be used like toolbox (which is included on the server version of MicroOS by default), but has some other advantages for desktop usage.
-Please refer to https://github.com/89luca89/distrobox for all options.
+''Distrobox'' kan gebruikt worden als toolbox (welke standaard inbegrepen is bij de server versie van MicroOSwhich), maar heeft enkele andere voordelen voor desktop gebruik.
+Kijk op https://github.com/89luca89/distrobox voor alle opties.
 
-[[Distrobox|For more documentation, see the Distrobox Page]]
+[[Distrobox|Voor meer documentatie, zie de Distrobox pagina]]
 ----
 
 == Troubleshooting ==
 
-This section describes known issues on openSUSE Aeon and their solutions.
+Deze paragraaf beschrijft de bekende issues met openSUSE Aeon en hun oplossing.
 
-==== Set hostname ====
+==== Hostnaam instellen ====
 
-Set your hostname with the following command, as currently it doesn't work from Gnome Settings yet:
+Het instellen van je hostnaam doe je met het volgende commando en niet vanuit Gnome Settings:
 
-   # sudo hostnamectl set-hostname <new name>
+   # sudo hostnamectl set-hostname <nieuwe naam>
 
-Reboot and hostname change will take effect. 
+Herstart en de nieuwe hostnaam is ingesteld. 
 
-==== Adjust transactional-update.timer ====
+==== transactional-update.timer Aanpassen ====
 
-Depending on your daily use case, the Timer may not trigger the automatic update process successfully even with persistent=true because it adds a randomized delay at each boot with ''RandomizedDelaySec'' 
+Afhankelijk van je dagelijkse routine kan de Timer soms het automatische update proces niet triggeren zelf met persistent=true omdat het een willekeurige vertraging toevoegt met ''RandomizedDelaySec'' 
 
-If you want automatic ''daily'' updates to your system, you may find that you need to adjust that delay mentioned. 
+Wilt u automatische ''dagelijkse'' updates op up systeem? Pas in dat geval de vertraging naar wens aan. 
 
-Edit transactional-update.timer:
+transactional-update.timer Bewerken:
 
    # sudo systemctl edit transactional-update.timer
 
-Add the following lines to create a override.conf (located in /etc/systemd/system/transactional-update.timer.d/override.conf)
+Voeg de volgende regels toe om een override.conf te maken (bevindt zich in /etc/systemd/system/transactional-update.timer.d/override.conf)
 
    [Timer]
    RandomizedDelaySec=5m
 
-The example above is for a randomized delay of max. 5 minutes. (Default value is 2h)
+Het voorbeeld hierboven is voor een willekeurige vertraging van maximaal 5 minuten (standaard is 2 uur).
 
-Change the time to your use case. You can use [https://www.freedesktop.org/software/systemd/man/systemd.time.html this as reference].
+Pas de tijd aan naar je wensen. Gebruik [https://www.freedesktop.org/software/systemd/man/systemd.time.html dit als naslagwerk].
 
-==== Steam Proton, Bottles, WINE, Lutris, Android Studio emulator not working from flatpaks ====
+==== Steam Proton, Bottles, WINE, Lutris, Android Studio emulator werken mogelijk niet vanuit flatpaks ====
 
-If you run into issues using WINE, and WINE based programs in flatpaks, it is likely due to an SELinux issue, and can be checked by running:
+Wanneer je problemen ervaart bij het gebruik van WINE en op WINE gebaseerde programma's in flatpaks, dan is dit waarschijnlijk een SELinux issue en kan gecontroleerd worden door onderstaand commando uit te voeren:
 
    # sudo getsebool selinuxuser_execmod
 
