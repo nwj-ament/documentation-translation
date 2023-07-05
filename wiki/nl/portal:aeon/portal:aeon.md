@@ -12,7 +12,7 @@ openSUSE Aeon is nog steeds in het '''Release Candidate''' stadium. Houd hier re
 == Voor wie is openSUSE Aeon? ==
 Het is NIET voor iedereen. Je hoogst aanpasbare Tumbleweed & Leap Desktops zijn veilig en blijven de beste keuze voor diegenen die willen knutselen met hun Desktop.
 
-Aeon zal perfect zijn voor gemakkelijk aangelegde ontwikkelaars, Die niets aan hun Desktop willen aanpassen alleen maar "hun ding doen", vooral wanneer ze containers ontwikkelen.
+Aeon zal perfect zijn voor gemakkelijk aangelegde ontwikkelaars, die niets aan hun Desktop willen aanpassen alleen maar "hun ding doen", vooral wanneer ze containers ontwikkelen.
 
 Het zal een hetzelfde publiek aantrekken dat gewend is aan iOS, Chromebook of Anrdoid-achtige ervaringen waarbij het OS statisch, geautomatiseerd & betrouwbaar is en de Apps de belangrijke zaken zijn voor de gebruiker.
 
