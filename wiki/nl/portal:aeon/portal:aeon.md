@@ -105,11 +105,11 @@ Dit is het verwachte en logische gedrag - Aeon zal altijd vertrekken vanuit het 
 
 Dit vooral begrijpelijk wanneer je er bij stil staat dat Aeon zichzelf update en dat de meeste gebruikers überhaupt ''transactional-update'' niet interactief zullen gebruiken. Omdat ''transactional-update dup'' op gezette tijden uitgevoerd wordt in de achtergrond, zorgt Aeon ervoor dat het de update gaat naar de laatste schone systeem update gaat, niet een of andere vreemde hybride van voorgaande niet opgestarte en niet gecontroleerde tussen vorm van ''transactional-update dup''.
 
-However, when ignoring this best practice and using ''transactional-update'' interactively, there may be times where you wish to run ''transactional-update'' against an existing unbooted, unknown-if-good snapshot.
+Echter, wanneer je de best practice negeert en ''transactional-update'' interactief gebruikt, dan zijn er momenten dat je ''transactional-update'' wilt gebruiken met een bestaande nog niet opgestarte onbekend-of-goed snapshot.
 
-For this use ''transactional-update --continue''
+Gebruik hiervoor ''transactional-update --continue''
 
-Example:
+Voorbeeld:
 
 ''sudo transactional-update pkg install $pkg1'' followed by ''sudo transactional-update --continue pkg install $pkg2'' will install $pkg1, then $pkg2 in the same snapshot that included $pkg1, marking that combined snapshot as the next boot target.
 
