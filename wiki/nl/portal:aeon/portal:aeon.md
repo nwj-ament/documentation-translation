@@ -57,7 +57,7 @@ Hoewel er andere manieren zijn om software te installeren, is het belangrijk om 
 # RPM's in een root distrobox ''distrobox-enter -r''
 # RPM's via transactional-update -- voor drivers, kernel modules, puur voor wat je nodig hebt om het host besturingssysteem te laten werken.
 
-'''To reiterate: EVERYTHING should be done via Flatpaks or be installed in a Distrobox if a package is not available as a flatpak. Using transactional-update is strictly what you need for your host operating system to work (exotic drivers, specialized vpn services).'''
+'''Samenvattend: ALLES moet gedaan worden via Flatpaks of geïnstalleerd worden in een Distrobox wanneer een pakket niet beschikbaar is als flatpak. Gebruik maken van transactional-update is puur voor wat je nodig hebt om het host systeem werkend te houden (exotische drivers, gespecialiseerde vpn services).'''
 
 Note: Distrobox is shipped by default w/ Aeon. It allows users to install any linux distribution inside your terminal. For those who want to run GUI apps via a Distrobox can do so with a special export command so that apps feel more native and integrated with the system. Check out the [[https://en.opensuse.org/Portal:Aeon#DistroBox Distrobox section]] to learn more about this convenient way to launch distrobox based apps from your host menu launcher. 
 
