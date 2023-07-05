@@ -111,7 +111,7 @@ Gebruik hiervoor ''transactional-update --continue''
 
 Voorbeeld:
 
-''sudo transactional-update pkg install $pkg1'' followed by ''sudo transactional-update --continue pkg install $pkg2'' will install $pkg1, then $pkg2 in the same snapshot that included $pkg1, marking that combined snapshot as the next boot target.
+''sudo transactional-update pkg install $pkg1'' gevolgd door ''sudo transactional-update --continue pkg install $pkg2'' zal $pkg1 installeren en daarna $pkg2 in hetzelfde snapshot als $pkg1, en markeert het gecombineerde snapshot als volgende opstart doel.
 
 If problems occur however, there is no additional complexity figuring out whether it was $pkg1 or $pkg2 that broke anything, as users will need to rollback to the snapshot before $pkg1 was installed to return to the last known good state.
 ----
