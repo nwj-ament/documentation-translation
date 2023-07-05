@@ -8,7 +8,7 @@ Left column
 
 --><div class="col-md-8">
 {{Card
-|header=Welcome to the '''openSUSE Tumbleweed''' portal! {{Edit button|class=float-right btn-sm|{{FULLPAGENAME}}/Intro}}
+|header=Welkom bij het '''openSUSE Tumbleweed''' portal! {{Edit button|class=float-right btn-sm|{{FULLPAGENAME}}/Intro}}
 |body={{:{{FULLPAGENAME}}/Intro}}
 }}
 {{Card
@@ -21,10 +21,10 @@ Right column
 
 --><div class="col-md-4">
 {{Portal:Distribution/Releases}}
-{{Card
+<!--{{Card
 |header=Navigation {{Edit button|class=float-right btn-sm|{{FULLPAGENAME}}/Navigation}}
 |body={{:{{FULLPAGENAME}}/Navigation}}
-}}
+}}-->
 </div><!-- /.col-md-4 -->
 </div><!-- /.row -->
 
