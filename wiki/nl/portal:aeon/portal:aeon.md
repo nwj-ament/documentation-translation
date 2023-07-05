@@ -55,7 +55,7 @@ Hoewel er andere manieren zijn om software te installeren, is het belangrijk om 
 # Flatpaks van je software center naar keuze of [https://flathub.org/home Flathub]
 # RPM's in een gebruikers distrobox ''distrobox-enter''  
 # RPM's in een root distrobox ''distrobox-enter -r''
-# RPM's via transactional-update -- voor drivers, kernel modules, puur voor wat je nodig hebt om het host besturings systeem te laten werken.
+# RPM's via transactional-update -- voor drivers, kernel modules, puur voor wat je nodig hebt om het host besturingssysteem te laten werken.
 
 '''To reiterate: EVERYTHING should be done via Flatpaks or be installed in a Distrobox if a package is not available as a flatpak. Using transactional-update is strictly what you need for your host operating system to work (exotic drivers, specialized vpn services).'''
 
