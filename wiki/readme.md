@@ -1,1 +1,1 @@
-Wiki files
+openSUSE Wiki Files
