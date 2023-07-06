@@ -1,0 +1,1 @@
+Everything openSUSE documentation related
