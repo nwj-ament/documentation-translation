@@ -12,7 +12,7 @@ openSUSE Kalpa is nog steeds in het '''Alpha''' stadium. Houd hier rekening mee!
 == Voor wie is openSUSE Kalpa? ==
 Het is NIET voor iedereen. Je hoogst aanpasbare Tumbleweed & Leap Desktops zijn veilig en blijven de beste keuze voor diegenen die willen knutselen met hun Desktop.
 
-Aeon zal perfect zijn voor gemakkelijk aangelegde ontwikkelaars, die niets aan hun Desktop willen aanpassen alleen maar "hun ding doen", vooral wanneer ze containers ontwikkelen.
+Kalpa zal perfect zijn voor gemakkelijk aangelegde ontwikkelaars, die niets aan hun Desktop willen aanpassen alleen maar "hun ding doen", vooral wanneer ze containers ontwikkelen.
 
 Het zal een hetzelfde publiek aantrekken dat gewend is aan iOS, Chromebook of Anrdoid-achtige ervaringen waarbij het OS statisch, geautomatiseerd & betrouwbaar is en de Apps de belangrijke zaken zijn voor de gebruiker.
 
@@ -107,7 +107,7 @@ Met andere woorden ''sudo transactional-update pkg install $pkg1'' gevolgd door 
 
 Dit is het verwachte en logische gedrag - Kalpa zal altijd vertrekken vanuit het laatste bekend goede/opgestarte snapshot naar de nieuwste staat in de kortste, minst verstorende weg mogelijk.
 
-Dit vooral begrijpelijk wanneer je er bij stil staat dat Kalpa zichzelf update en dat de meeste gebruikers überhaupt ''transactional-update'' niet interactief zullen gebruiken. Omdat ''transactional-update dup'' op gezette tijden uitgevoerd wordt in de achtergrond, zorgt Aeon ervoor dat het de update gaat naar de laatste schone systeem update gaat, niet een of andere vreemde hybride van voorgaande niet opgestarte en niet gecontroleerde tussen vorm van ''transactional-update dup''.
+Dit vooral begrijpelijk wanneer je er bij stil staat dat Kalpa zichzelf update en dat de meeste gebruikers überhaupt ''transactional-update'' niet interactief zullen gebruiken. Omdat ''transactional-update dup'' op gezette tijden uitgevoerd wordt in de achtergrond, zorgt Kalpa ervoor dat het de update gaat naar de laatste schone systeem update gaat, niet een of andere vreemde hybride van voorgaande niet opgestarte en niet gecontroleerde tussen vorm van ''transactional-update dup''.
 
 Echter, wanneer je de best practice negeert en ''transactional-update'' interactief gebruikt, dan zijn er momenten dat je ''transactional-update'' wilt gebruiken met een bestaande nog niet opgestarte onbekend-of-goed snapshot.
 
