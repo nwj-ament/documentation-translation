@@ -1,11 +1,11 @@
 {{Board navbar}}
-{{Intro|The purpose of the openSUSE Board is to lead the overall project. The main tasks for members of the board are: 
-* Act as a central point of contact
-* Help resolve conflicts
-* Communicate community interests to SUSE
-* Facilitate communication with all areas of the community
-* Facilitate decision making processes where needed.
-* Initiate discussions about new project wide initiatives }}
+{{Intro|Het openSUSE bestuur is ingesteld om het gehele project te leiden. De hoofdtaken voor leden van het bestuur zijn: 
+* Als centraal contactpunt optreden
+* Helpen met conflicten oplossen
+* De belangen van de gemeenschap aan SUSE bekendmaken
+* Communicatie met alle gebieden van de gemeenschap faciliteren
+* Processen voor beslissingen maken faciliteren, indien nodig.
+* Discussies over nieuwe projectbrede initiatieven starten.}}
 
 The board should provide [[openSUSE:Guiding principles|guidance]] and support existing governance structures, but shouldn't direct or control development, since community mechanisms exist to accomplish the goals of the project. The board should document decisions and policies.
 
