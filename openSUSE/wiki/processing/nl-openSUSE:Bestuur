@@ -1,0 +1,76 @@
+{{Board navbar}}
+{{Intro|The purpose of the openSUSE Board is to lead the overall project. The main tasks for members of the board are: 
+* Act as a central point of contact
+* Help resolve conflicts
+* Communicate community interests to SUSE
+* Facilitate communication with all areas of the community
+* Facilitate decision making processes where needed.
+* Initiate discussions about new project wide initiatives }}
+
+The board should provide [[openSUSE:Guiding principles|guidance]] and support existing governance structures, but shouldn't direct or control development, since community mechanisms exist to accomplish the goals of the project. The board should document decisions and policies.
+
+== Members ==
+
+The board members are elected by the community and the chair person is appointed by SUSE. The current chosen members are as follows:
+
+<!-- order by time in the board and in case of entering at the same moment alphabetically -->
+{|
+|-
+| [[File:GeraldPfeifer.jpg|link=https://en.opensuse.org/images/e/e6/GeraldPfeifer.jpg|400px]]
+| [http://www.pfeifer.com/gerald/ '''Dr. Gerald Pfeifer (Chair) / GeraldPfeifer'''] lives and works in Vienna, Nürnberg, and wherever his role as CTO at SUSE and his passion for diving and Yoga bring him. He has a doctorate in technical sciences and has been engaging with free software and open source before the latter term was even coined. Still recalling when he compiled a modern desktop environment on his Solaris workstation he has been using Tumbleweed (née Factory) for a dozen years and prides (and occasionally frustrates) himself being the trigger of most fixes in SUSE's/openSUSE's LibreOffice packages.
+
+|
+|-
+| [[File:Neal-Gompa-jun2020.png|400px]]
+| [[User:Pharaoh_Atem|'''Neal Gompa / Conan_Kudo''']] lives in Norwalk, Connecticut in the United States. By day, He's a Senior Black Belt on Managed OpenShift at [https://redhat.com Red Hat, Inc.], but on his nights and weekends, he's a Linux systems aficionado and FOSS developer. A Linux user since 2002 and using openSUSE off-and-on since 2007, he's been a happy user and strong advocate for openSUSE Tumbleweed since 2015. His focus is around enabling people to be successful in the Project, whether that's as a member of [[openSUSE:Heroes|the Heroes]] working on the infrastructure, contributing to the openSUSE distributions and many openSUSE projects as a developer, or simply talking to users and potential contributors on the various real-time chat platforms.
+
+|
+|-
+| [[File:Knurpht.jpg|link=|400px]]
+| [https://en.opensuse.org/User:Knurpht '''Gertjan Lettink / Knurpht'''] lives in Groningen, Netherlands in a (since 2001) windowsless house, works as a self employed IT all-rounder, has a passion for open source and loves the openSUSE community. Nothing beats music though. Active in the forums, social media, co-organizer of local events. Using openSUSE and its predecessors from 6.4, A community person, with a strong interest in the technical side of the project. Firm against this-vs-that polls. Co-founder of [https://meet.opensuse.org/bar'''openSUSE Bar''']
+
+|
+|-
+| [[File:M4u9.jpeg|link=|400px]]
+| [[User:mauriziogalli|'''Maurizio Galli / m4u''']] lives in Hong Kong and he works at SUSE as Maintenance Coordinator Engineer. He's been an openSUSE contributor since 2017, mainly as a member of the openSUSE Xfce Team, where he has devoted himself to the development and packaging of the Xfce desktop environment. He usually hangs out on Matrix, Discord and Telegram and he's happy to talk about FOSS, openSUSE and whiskey in the [https://meet.opensuse.org/bar'''openSUSE Bar'''] :-P.
+
+|-
+| [[File:Douglas.jpg|link=|400px]]
+| [https://en.opensuse.org/User:Ddemaio '''Douglas DeMaio / ddemaio'''] is expat living in Europe and has been part of the openSUSE community since 2014. He has a Master's degree in International Business and does marketing, management and events for the project. He is involved in various open-source projects and attends several FOSS events. He works for SUSE and organizes the openSUSE Conference, writing articles on news.opensuse.org, talks about openSUSE at conferences and summits.
+|
+|-
+| [[File:Patrickf2022.jpg|200px]]
+| [https://en.opensuse.org/User:Pfitzgerald '''Patrick Fitzgerald'''] was born in Australia, and is now based in Germany after more than 20 years living in London. Having spent almost his entire adult life working with technology (except for about 7 years in the film industry, but that's another story), he has presented at multiple SUSE/openSUSE events and is keen to help the project advance to the next level.
+|
+|}
+
+== Appointed Positions ==
+
+On occasion the Board appoints people to the Board to assist with specific tasks. These positions are non-voting, they can not take an active part in any Board decisions, but they are empowered to assist the Project in their area of responsibility.
+
+All appointed position only last until the next Board election. In the first meeting of a new Board any existing appointees must be replaced, reappointed, or the position removed.
+
+Currently the only appointed Board position is the role of Treasurer. This role is responsible for administering the [[openSUSE:Travel_Support_Program|Travel Support Program]] and liaising with SUSE & the Project's other [[Sponsors]] on all financial matters.
+
+=== Treasurer - vacant ===
+{|
+
+|}
+
+== Contact ==
+* You can reach the board privately via email [mailto:board@opensuse.org board@opensuse.org].
+* You can add items to the Board online meetings agenda by adding them in https://code.opensuse.org/board/tickets.
+{{Mailinglist|project|The board invites everybody to start general discussions on the project mailinglist}}
+
+
+
+[[de:Rat]]
+[[es:openSUSE:Consejo]]
+[[fr:openSUSE:Board]]
+[[ru:openSUSE:Совет]]
+[[ja:Board]]
+[[zh:openSUSE:Board]]
+
+[[Category:Community]]
+[[Category:Board]]
+[[Category:Team pages]]
